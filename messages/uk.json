@@ -1,0 +1,2105 @@
+{
+  "common": {
+    "localeSwitcher": "Мова"
+  },
+  "cart": {
+    "title": "Кошик",
+    "itemsCount": "{count, plural, one {# товар} few {# товари} many {# товарів} other {# товарів}}",
+    "continueShopping": "Продовжити покупки",
+    "remove": "Видалити",
+    "variant": {
+      "color": "Колір:",
+      "size": "Розмір:"
+    },
+    "quantity": {
+      "increase": "Збільшити кількість",
+      "decrease": "Зменшити кількість"
+    },
+    "empty": {
+      "title": "Кошик порожній",
+      "cta": "Перейти в каталог"
+    },
+    "summary": {
+      "title": "Разом",
+      "itemsLabel": "Товари",
+      "shippingLabel": "Доставка",
+      "shippingValue": "За тарифами Нової Пошти",
+      "totalLabel": "До сплати",
+      "checkoutCta": "ОФОРМИТИ ЗАМОВЛЕННЯ",
+      "validating": "Перевірка…",
+      "securePayment": "Безпечна оплата",
+      "stockIssues": {
+        "title": "Деякі товари недоступні в потрібній кількості",
+        "description": "Оновіть кількість або видаліть недоступні товари перед оформленням."
+      }
+    },
+    "stock": {
+      "outOfStock": "Немає в наявності",
+      "onlyN": "Доступно лише {count}",
+      "unavailable": "Товар більше недоступний"
+    },
+    "clear": {
+      "action": "Очистити кошик",
+      "dialogTitle": "Очистити кошик?",
+      "dialogDescription": "Усі товари буде видалено з кошика. Цю дію не можна скасувати.",
+      "confirm": "Очистити",
+      "cancel": "Скасувати"
+    },
+    "drawer": {
+      "title": "Кошик",
+      "viewCart": "Переглянути кошик"
+    }
+  },
+  "header": {
+    "menu": "Меню",
+    "toggleMenu": "Відкрити меню",
+    "categories": "Категорії",
+    "adminPanel": "Адмін-панель",
+    "account": "Акаунт",
+    "orders": "Замовлення",
+    "signIn": "Увійти",
+    "signOut": "Вийти",
+    "createAccount": "Створити акаунт",
+    "cart": "Кошик",
+    "search": {
+      "srOpen": "Пошук (Ctrl+K)",
+      "dialogTitle": "Пошук товарів",
+      "placeholder": "Пошук товарів…",
+      "viewAll": "Всі результати для «{query}»",
+      "noResults": "Нічого не знайдено за запитом «{query}»",
+      "minChars": "Введіть щонайменше 2 символи для пошуку…"
+    },
+    "nav": {
+      "catalog": "Каталог",
+      "new": "Новинки",
+      "bestsellers": "Бестселери",
+      "contacts": "Контакти"
+    }
+  },
+  "footer": {
+    "groups": {
+      "shop": "Магазин",
+      "info": "Інформація"
+    },
+    "links": {
+      "catalog": "Каталог",
+      "categories": "Категорії",
+      "new": "Новинки",
+      "feedback": "Зворотний зв'язок",
+      "track": "Статус замовлення",
+      "about": "Про нас",
+      "shipping": "Доставка",
+      "returns": "Повернення",
+      "faq": "Питання-відповіді",
+      "contact": "Контакти",
+      "privacy": "Політика конфіденційності",
+      "terms": "Умови користування"
+    },
+    "developerCredit": "Розроблено —",
+    "followUs": "Слідкуйте за нами",
+    "newsletterBlurb": "Підпишіться на новини — знижки та новинки першими.",
+    "benefits": {
+      "0": {
+        "title": "Швидка доставка",
+        "description": "Розрахунок при оформленні"
+      },
+      "1": {
+        "title": "Оплата при отриманні",
+        "description": "Без передоплати"
+      },
+      "2": {
+        "title": "Безпечна оплата",
+        "description": "Захищений checkout"
+      },
+      "3": {
+        "title": "Підтримка 24/7",
+        "description": "Ми завжди на зв'язку"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "headline1": "СТИЛЬ. ЯКІСТЬ.",
+      "headline2": "ВПЕВНЕНІСТЬ.",
+      "subtitle": "Mirox Shop — сучасний одяг для тих, хто цінує якість і мінімалізм.",
+      "primaryCta": "ПЕРЕЙТИ В КАТАЛОГ",
+      "secondaryCta": "ПЕРЕГЛЯНУТИ НОВИНКИ",
+      "imageAlt": "Модель у чорному худі Mirox"
+    },
+    "benefitsAriaLabel": "Переваги",
+    "benefits": {
+      "0": {
+        "title": "Швидка доставка",
+        "description": "По всій Україні"
+      },
+      "1": {
+        "title": "Преміум якість",
+        "description": "Тільки найкращі матеріали"
+      },
+      "2": {
+        "title": "Підтримка 24/7",
+        "description": "Ми завжди на зв'язку"
+      },
+      "3": {
+        "title": "Оплата при отриманні",
+        "description": "Без передоплати"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Чому обирають нас",
+      "intro": "Перевіряємо кожну річ перед відправкою і завжди на зв'язку.",
+      "items": {
+        "0": "Швидка доставка по Україні",
+        "1": "Перевірка кожної речі",
+        "2": "Підтримка без вихідних",
+        "3": "Тільки якісний одяг",
+        "4": "Безпечна оплата",
+        "5": "Нам довіряють постійні клієнти"
+      },
+      "stats": {
+        "olxSales": "успішних покупок на OLX",
+        "instagramOrders": "замовлень через Instagram",
+        "customerRating": "середня оцінка покупців"
+      }
+    },
+    "rails": {
+      "newArrivals": {
+        "title": "Новинки",
+        "viewAllLabel": "Дивитись все"
+      }
+    },
+    "testimonials": {
+      "title": "Відгуки покупців"
+    }
+  },
+  "brand": {
+    "tagline": "Сучасний одяг для тих, хто цінує якість і мінімалізм.",
+    "heroSubtitle": "Mirox Shop — сучасний одяг для тих, хто цінує якість і мінімалізм.",
+    "description": "Mirox Shop — сучасний одяг для тих, хто цінує якість і мінімалізм. Перевіряємо кожну річ перед відправкою, швидка доставка по всій Україні.",
+    "metaSuffix": "Сучасний одяг"
+  },
+  "site": {
+    "announcement": {
+      "text": "Ми відкрилися! Новий сайт Mirox уже працює. Помітили проблему або маєте пропозицію?",
+      "linkLabel": "Розкажіть нам через форму зворотного зв'язку"
+    },
+    "announcementDismiss": "Приховати оголошення"
+  },
+  "checkout": {
+    "title": "Оформлення замовлення",
+    "secureNote": "Захищене оформлення",
+    "steps": {
+      "cart": "Кошик",
+      "contacts": "Контакти",
+      "delivery": "Доставка",
+      "payment": "Оплата"
+    },
+    "contact": {
+      "heading": "Контактні дані",
+      "name": {
+        "label": "Ім'я",
+        "placeholder": "Олександр Коваленко"
+      },
+      "phone": {
+        "label": "Телефон",
+        "placeholder": "+380 __ ___ __ __"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@example.com"
+      },
+      "next": "ДАЛІ — ДОСТАВКА"
+    },
+    "delivery": {
+      "heading": "Доставка",
+      "city": {
+        "label": "Місто",
+        "placeholder": "Київ"
+      },
+      "address": {
+        "label": "Відділення / адреса",
+        "placeholder": "Відділення №12"
+      },
+      "notes": {
+        "label": "Коментар до замовлення (необов'язково)",
+        "placeholder": "Побажання до замовлення…"
+      },
+      "picker": {
+        "city": { "label": "Місто", "placeholder": "Почніть вводити назву міста" },
+        "branch": { "label": "Відділення", "placeholder": "Номер або вулиця" },
+        "postomat": { "label": "Поштомат", "placeholder": "Номер або вулиця" },
+        "street": {
+          "label": "Вулиця, будинок, квартира",
+          "placeholder": "вул. Хрещатик, 1, кв. 5"
+        },
+        "chooseCityFirst": "Спершу оберіть місто",
+        "loading": "Завантаження…",
+        "empty": "Нічого не знайдено",
+        "truncated": "Показано не всі — уточніть номер або вулицю",
+        "fallbackNotice": "Не вдалося завантажити довідник Нової Пошти — вкажіть місто та відділення вручну.",
+        "errors": {
+          "city": "Оберіть місто зі списку",
+          "branch": "Оберіть відділення зі списку",
+          "postomat": "Оберіть поштомат зі списку",
+          "street": "Вкажіть адресу"
+        }
+      },
+      "back": "← НАЗАД",
+      "next": "ДАЛІ — ОПЛАТА"
+    },
+    "payment": {
+      "heading": "Оплата",
+      "cod": {
+        "name": "Оплата при отриманні",
+        "description": "Без передоплати · готівкою або карткою у відділенні"
+      },
+      "noPrepay": "Працюємо без передоплати",
+      "prepay": {
+        "offer": "Хочете оплатити повну вартість наперед? Напишіть менеджеру — надішлемо реквізити.",
+        "cardLabel": "Оплата повної вартості на картку:",
+        "contactLabel": "Питання — напишіть менеджеру:"
+      },
+      "contacts": {
+        "manager": "Менеджер"
+      },
+      "back": "← НАЗАД",
+      "submit": "ПІДТВЕРДИТИ ЗАМОВЛЕННЯ",
+      "submitting": "Обробка…"
+    },
+    "errors": {
+      "orderFailed": "Не вдалося оформити замовлення. Спробуйте ще раз.",
+      "PRODUCT_UNAVAILABLE": "Деякі товари з вашого замовлення більше недоступні. Оновіть кошик і спробуйте ще раз.",
+      "INVALID_VARIANT": "Один із товарів недоступний у вибраному варіанті. Оновіть кошик і спробуйте ще раз.",
+      "INSUFFICIENT_STOCK": "На складі недостатньо товару для вашого замовлення. Зменште кількість і спробуйте ще раз.",
+      "INVALID_SHIPPING_METHOD": "Оберіть коректний спосіб доставки.",
+      "INVALID_ORDER_DATA": "Перевірте правильність заповнених даних."
+    },
+    "summary": {
+      "heading": "Ваше замовлення",
+      "itemsLabel": "Товари",
+      "shippingLabel": "Доставка",
+      "totalLabel": "До сплати",
+      "qty": "{count} шт"
+    },
+    "empty": {
+      "title": "Кошик порожній",
+      "description": "Додайте товари до кошика, щоб оформити замовлення.",
+      "cta": "Перейти в каталог"
+    },
+    "confirmation": {
+      "title": "Замовлення прийнято!",
+      "emailSentPrefix": "Дякуємо! Ми надіслали підтвердження на",
+      "orderNumberLabel": "Замовлення №",
+      "detailsHeading": "Деталі замовлення",
+      "paymentCod": "Оплата при отриманні у відділенні",
+      "paymentCard": "Карткою онлайн",
+      "paymentLabel": "Оплата",
+      "subtotalLabel": "Товари",
+      "shippingLabel": "Доставка",
+      "totalLabel": "До сплати",
+      "addressHeading": "Адреса доставки",
+      "methodHeading": "Спосіб доставки",
+      "notesHeading": "Коментар до замовлення",
+      "emailCardTitle": "Лист із підтвердженням",
+      "emailCardTextPrefix": "Деталі замовлення надіслано на",
+      "continueShopping": "Продовжити покупки",
+      "viewOrders": "Історія замовлень",
+      "notFoundTitle": "Замовлення не знайдено",
+      "notFoundText": "Ми не знайшли замовлення за вказаним номером.",
+      "loading": "Завантажуємо деталі замовлення…",
+      "trackLink": "Перевірити статус замовлення"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Вхід",
+      "description": "Увійдіть, щоб керувати замовленнями та даними акаунта",
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Введіть пароль"
+      },
+      "submit": "УВІЙТИ",
+      "submitting": "ВХІД…",
+      "errors": {
+        "invalidCredentials": "Невірний email або пароль",
+        "generic": "Щось пішло не так. Спробуйте ще раз."
+      },
+      "noAccount": "Немає акаунта?",
+      "signUpLink": "Зареєструватися"
+    },
+    "register": {
+      "title": "Реєстрація",
+      "description": "Заповніть дані, щоб створити акаунт",
+      "name": {
+        "label": "Ім'я",
+        "placeholder": "Олександр Коваленко"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Створіть пароль"
+      },
+      "confirmPassword": {
+        "label": "Підтвердження пароля",
+        "placeholder": "Повторіть пароль"
+      },
+      "submit": "СТВОРИТИ АКАУНТ",
+      "submitting": "СТВОРЕННЯ АКАУНТА…",
+      "errors": {
+        "byCode": {
+          "EMAIL_EXISTS": "Цей email вже зареєстровано"
+        },
+        "generic": "Щось пішло не так. Спробуйте ще раз."
+      },
+      "hasAccount": "Вже є акаунт?",
+      "signInLink": "Увійти"
+    },
+    "error": {
+      "title": "Помилка автентифікації",
+      "description": "Під час автентифікації сталася помилка. Спробуйте ще раз — якщо проблема повторюється, зверніться до нас.",
+      "errorId": "Код помилки: {digest}",
+      "retry": "Спробувати ще раз",
+      "backToLogin": "До входу"
+    }
+  },
+  "account": {
+    "title": "Мій акаунт",
+    "nav": {
+      "overview": "Огляд",
+      "orders": "Замовлення"
+    },
+    "overview": {
+      "welcome": "З поверненням, {name}!",
+      "nameFallback": "Клієнт",
+      "description": "Керуйте замовленнями та даними акаунта.",
+      "ordersCard": {
+        "title": "Замовлення",
+        "description": "Перегляд і відстеження ваших замовлень",
+        "cta": "До замовлень"
+      },
+      "info": {
+        "title": "Дані акаунта",
+        "name": "Ім'я",
+        "email": "Email",
+        "notSet": "Не вказано"
+      }
+    },
+    "orders": {
+      "title": "Історія замовлень",
+      "filter": {
+        "placeholder": "Фільтр за статусом",
+        "all": "Всі замовлення"
+      },
+      "empty": {
+        "title": "Замовлень поки немає",
+        "description": "Коли ви оформите замовлення, воно з'явиться тут.",
+        "cta": "Перейти в каталог"
+      },
+      "card": {
+        "placed": "Дата замовлення",
+        "total": "Сума",
+        "number": "№ замовлення",
+        "details": "Деталі",
+        "qty": "К-сть: {count}",
+        "more": "+{count, plural, one {# інший товар} few {# інші товари} many {# інших товарів} other {# інших товарів}}"
+      },
+      "pagination": {
+        "prev": "Назад",
+        "next": "Далі",
+        "pageOf": "Сторінка {page} з {total}"
+      }
+    },
+    "orderDetail": {
+      "orderTitle": "Замовлення {num}",
+      "placedOn": "Оформлено {date}",
+      "notFound": "Замовлення не знайдено",
+      "loadFailed": "Не вдалося завантажити замовлення",
+      "backToOrders": "До замовлень",
+      "timeline": {
+        "title": "Статус замовлення",
+        "placed": "Замовлення оформлено",
+        "confirmed": "Замовлення підтверджено",
+        "processing": "Обробляється",
+        "shipped": "Відправлено",
+        "delivered": "Доставлено",
+        "cancelled": "Скасовано",
+        "tracking": "Номер відстеження:",
+        "trackPackage": "Відстежити посилку"
+      },
+      "items": {
+        "title": "Товари ({count})",
+        "sku": "Артикул:"
+      },
+      "summary": {
+        "title": "Разом",
+        "subtotal": "Товари",
+        "shipping": "Доставка",
+        "discount": "Знижка",
+        "tax": "Податок",
+        "total": "До сплати"
+      },
+      "address": {
+        "title": "Адреса доставки"
+      },
+      "payment": {
+        "title": "Оплата",
+        "method": "Спосіб",
+        "status": "Статус",
+        "paidOn": "Оплачено",
+        "methodCod": "Оплата при отриманні",
+        "methodCard": "Карткою"
+      },
+      "notes": {
+        "title": "Коментар до замовлення"
+      }
+    },
+    "orderStatus": {
+      "PENDING": "Очікує підтвердження",
+      "CONFIRMED": "Підтверджено",
+      "PROCESSING": "Обробляється",
+      "SHIPPED": "Відправлено",
+      "DELIVERED": "Доставлено",
+      "CANCELLED": "Скасовано",
+      "REFUNDED": "Повернуто"
+    },
+    "paymentStatus": {
+      "PENDING": "Очікує оплати",
+      "PAID": "Оплачено",
+      "FAILED": "Не вдалася",
+      "REFUNDED": "Повернуто",
+      "PARTIALLY_REFUNDED": "Частково повернуто"
+    }
+  },
+  "system": {
+    "notFound": {
+      "title": "404",
+      "description": "Сторінку не знайдено",
+      "cta": "Повернутися на головну"
+    },
+    "error": {
+      "title": "Щось пішло не так",
+      "description": "Сталася неочікувана помилка. Спробуйте ще раз.",
+      "errorId": "Код помилки: {digest}",
+      "retry": "Спробувати ще раз",
+      "home": "На головну"
+    },
+    "cookies": {
+      "message": "Ми використовуємо cookies для аналізу відвідуваності та покращення роботи сайту. Натискаючи «Прийняти», ви погоджуєтесь на аналітичне відстеження.",
+      "accept": "Прийняти",
+      "decline": "Відхилити"
+    }
+  },
+  "feedback": {
+    "page": {
+      "title": "Зворотний зв'язок",
+      "description": "Ми щойно запустили новий сайт. Якщо щось не працює, виглядає дивно або у вас є ідея — напишіть нам. Ми читаємо кожне повідомлення."
+    },
+    "form": {
+      "nameLabel": "Ім'я",
+      "namePlaceholder": "Як до вас звертатися (необов'язково)",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "emailHint": "Залиште email, якщо хочете отримати відповідь (необов'язково)",
+      "messageLabel": "Повідомлення",
+      "messagePlaceholder": "Розкажіть, що сталося або що можна покращити…",
+      "submit": "Надіслати",
+      "submitting": "Надсилаємо…"
+    },
+    "success": {
+      "title": "Дякуємо!",
+      "description": "Ваше повідомлення надіслано. Якщо ви залишили email, ми відповімо найближчим часом."
+    },
+    "byCode": {
+      "VALIDATION_ERROR": "Перевірте заповнені поля — щось не так.",
+      "SEND_FAILED": "Не вдалося надіслати повідомлення. Спробуйте пізніше."
+    },
+    "fallback": "Не вдалося надіслати повідомлення. Спробуйте пізніше."
+  },
+  "newsletter": {
+    "confirm": {
+      "loading": {
+        "title": "Підтверджуємо підписку…",
+        "description": "Зачекайте, будь ласка."
+      },
+      "byCode": {
+        "CONFIRMED": {
+          "title": "Підписку підтверджено!",
+          "description": "Дякуємо! Тепер ви отримуватимете наші новини та пропозиції."
+        },
+        "ALREADY_CONFIRMED": {
+          "title": "Підписку вже підтверджено",
+          "description": "Цей email уже отримує наші листи."
+        },
+        "LINK_EXPIRED": {
+          "title": "Посилання застаріло",
+          "description": "Термін дії посилання минув. Підпишіться ще раз — ми надішлемо новий лист."
+        },
+        "INVALID_TOKEN": {
+          "title": "Недійсне посилання",
+          "description": "Посилання для підтвердження недійсне. Перевірте адресу з листа."
+        },
+        "TOKEN_REQUIRED": {
+          "title": "Недійсне посилання",
+          "description": "У посиланні бракує токена підтвердження."
+        }
+      },
+      "fallback": {
+        "title": "Щось пішло не так",
+        "description": "Не вдалося підтвердити підписку. Спробуйте пізніше."
+      }
+    },
+    "unsubscribe": {
+      "idle": {
+        "title": "Відписатися від розсилки",
+        "prompt": "Ви впевнені, що хочете відписати {email} від нашої розсилки?",
+        "confirm": "Так, відписатися"
+      },
+      "processing": {
+        "title": "Обробляємо…",
+        "description": "Зачекайте, будь ласка."
+      },
+      "invalidLink": {
+        "title": "Недійсне посилання",
+        "description": "Посилання для відписки недійсне або неповне."
+      },
+      "byCode": {
+        "UNSUBSCRIBED": {
+          "title": "Ви відписалися",
+          "description": "Ми більше не надсилатимемо вам листи."
+        },
+        "ALREADY_UNSUBSCRIBED": {
+          "title": "Ви вже відписані",
+          "description": "Цей email не отримує нашу розсилку."
+        },
+        "SUBSCRIBER_NOT_FOUND": {
+          "title": "Недійсне посилання",
+          "description": "Підписника з таким email не знайдено."
+        },
+        "INVALID_UNSUBSCRIBE_LINK": {
+          "title": "Недійсне посилання",
+          "description": "Посилання для відписки недійсне."
+        },
+        "VALIDATION_ERROR": {
+          "title": "Недійсне посилання",
+          "description": "Посилання для відписки недійсне або неповне."
+        }
+      },
+      "fallback": {
+        "title": "Щось пішло не так",
+        "description": "Не вдалося обробити відписку. Спробуйте пізніше."
+      }
+    },
+    "signup": {
+      "emailPlaceholder": "Ваш email",
+      "submit": "Підписатися",
+      "submitting": "Підписуємось...",
+      "successToast": "Перевірте пошту, щоб підтвердити підписку",
+      "successMessage": "Перевірте пошту, щоб підтвердити підписку!",
+      "privacyNote": "Ми поважаємо вашу приватність. Відписатися можна будь-коли.",
+      "byCode": {
+        "ALREADY_SUBSCRIBED": "Цей email уже підписаний на розсилку"
+      },
+      "fallback": "Не вдалося підписатися"
+    },
+    "actions": {
+      "continueShopping": "Продовжити покупки",
+      "goHome": "На головну"
+    }
+  },
+  "shipping": {
+    "np-office": "Нова Пошта — відділення",
+    "np-courier": "Нова Пошта — кур'єр",
+    "np-postomat": "Нова Пошта — поштомат"
+  },
+  "products": {
+    "catalogName": "Каталог",
+    "breadcrumbHome": "Головна",
+    "list": {
+      "empty": {
+        "title": "Нічого не знайдено",
+        "description": "Спробуйте змінити фільтри або пошуковий запит.",
+        "clearFilters": "Скинути фільтри"
+      },
+      "pagination": {
+        "prev": "Попередня сторінка",
+        "next": "Наступна сторінка"
+      }
+    },
+    "filters": {
+      "title": "Фільтри",
+      "apply": "Застосувати",
+      "priceTrigger": "Ціна ▾",
+      "priceHeading": "Ціна",
+      "brandTrigger": "Бренд ▾",
+      "brandHeading": "Бренд",
+      "noBrands": "Немає брендів",
+      "availabilityTrigger": "Наявність ▾",
+      "availabilityHeading": "Наявність",
+      "allProducts": "Всі товари",
+      "inStock": "В наявності",
+      "colorTrigger": "Колір ▾",
+      "categoryTrigger": "Категорії ▾",
+      "categoryHeading": "Категорії",
+      "clearAll": "Скинути все",
+      "sortHeading": "Сортування",
+      "searchPill": "Пошук: {query}",
+      "clearSearch": "Скинути пошук",
+      "categoryPill": "Категорія: {category}",
+      "clearCategory": "Скинути категорію"
+    },
+    "sort": {
+      "heading": "Сортування:",
+      "new": "Новинки",
+      "popular": "Популярні",
+      "priceAsc": "Ціна ↑",
+      "priceDesc": "Ціна ↓"
+    },
+    "variant": {
+      "size": "Розмір:",
+      "sizeLabel": "Розмір",
+      "sizeGroupAria": "Розмір: {name}",
+      "color": "Колір:",
+      "colorLabel": "Колір",
+      "colorAria": "Колір: {value}",
+      "colorAriaSelected": "Колір: {value} (обраний)",
+      "colorAriaSibling": "Колір: {value} — {name}"
+    },
+    "card": {
+      "prevPhoto": "Попереднє фото",
+      "nextPhoto": "Наступне фото",
+      "quickView": "Швидкий перегляд",
+      "addToCartAria": "В кошик"
+    },
+    "badges": {
+      "new": "НОВИНКА",
+      "sale": "-{percent}%",
+      "outOfStock": "Немає в наявності"
+    },
+    "sizePicker": {
+      "title": "Підбір розміру",
+      "subtitle": "Вкажіть свій зріст і вагу, ми підберемо ідеальний розмір",
+      "heightLabel": "Зріст (см)",
+      "weightLabel": "Вага (кг)",
+      "resultLabel": "Ваш розмір:",
+      "recommendationsLabel": "Рекомендації:",
+      "recommendations": {
+        "fit": "Вільна посадка",
+        "comfort": "Комфорт у русі",
+        "idealChoice": "Ідеальний вибір"
+      }
+    },
+    "quickView": {
+      "prevPhoto": "Попереднє фото",
+      "nextPhoto": "Наступне фото",
+      "addToCart": "ДОДАТИ В КОШИК",
+      "viewDetails": "Детальніше →"
+    },
+    "gallery": {
+      "photosAria": "Фотографії: {name}",
+      "slideAlt": "{name} — фото {index}",
+      "goToPhoto": "Перейти до фото {index}",
+      "photoOf": "Фото {index} із {total}",
+      "thumbnailAlt": "{name} — мініатюра {index}"
+    },
+    "boughtTogether": {
+      "title": "Купують разом",
+      "totalLabel": "Загальна ціна:",
+      "addBundle": "ДОДАТИ КОМПЛЕКТ У КОШИК"
+    },
+    "recentlyViewed": {
+      "title": "Ви нещодавно переглянули"
+    },
+    "detail": {
+      "reviewCount": "{count, plural, one {# відгук} few {# відгуки} many {# відгуків} other {# відгуків}}",
+      "outOfStock": "Немає в наявності",
+      "lowStock": "Залишилось {count} шт",
+      "inStock": "● В наявності",
+      "shippingNote": "Доставка Новою Поштою",
+      "addedToCart": "ДОДАНО В КОШИК",
+      "addToCart": "ДОДАТИ В КОШИК",
+      "buyNow": "КУПИТИ ЗАРАЗ",
+      "description": "Опис",
+      "relatedProducts": "Схожі товари",
+      "notFoundTitle": "Товар не знайдено",
+      "notFoundDescription": "Товару, який ви шукаєте, не існує, або його було видалено.",
+      "backToCatalog": "До каталогу"
+    },
+    "share": {
+      "label": "Поділитися:",
+      "platformAria": "Поділитися: {platform}",
+      "copyAria": "Скопіювати посилання",
+      "nativeAria": "Поділитися",
+      "linkCopied": "Посилання скопійовано!",
+      "copyFailed": "Не вдалося скопіювати посилання"
+    }
+  },
+  "reviews": {
+    "title": "Відгуки покупців",
+    "stats": {
+      "reviewCount": "{count, plural, one {# відгук} few {# відгуки} many {# відгуків} other {# відгуків}}"
+    },
+    "form": {
+      "heading": "Написати відгук",
+      "ratingLabel": "Оцінка *",
+      "selectRatingError": "Оберіть оцінку",
+      "commentLabel": "Коментар (необов’язково)",
+      "commentPlaceholder": "Поділіться враженнями про товар…",
+      "submit": "Надіслати відгук",
+      "submitting": "Надсилаємо…",
+      "submitSuccess": "Відгук надіслано!",
+      "submitError": "Не вдалося надіслати відгук"
+    },
+    "list": {
+      "filterLabel": "Фільтр:",
+      "filterAll": "Всі оцінки",
+      "filterFive": "5 зірок",
+      "filterFour": "4 зірки",
+      "filterThree": "3 зірки",
+      "filterTwo": "2 зірки",
+      "filterOne": "1 зірка",
+      "emptyFiltered": "Немає відгуків із такою оцінкою.",
+      "empty": "Відгуків поки немає.",
+      "loading": "Завантаження…",
+      "loadMore": "Показати ще"
+    },
+    "item": {
+      "anonymousFallback": "Покупець",
+      "verifiedBadge": "✓ Підтверджена покупка",
+      "storeReply": "Відповідь магазину"
+    }
+  },
+  "categories": {
+    "title": "Категорії",
+    "subtitle": "Перегляньте наші товари за категоріями",
+    "empty": {
+      "title": "Категорій поки немає",
+      "description": "Незабаром тут з'являться категорії товарів."
+    },
+    "productCount": "{count, plural, one {# товар} few {# товари} many {# товарів} other {# товарів}}",
+    "moreCategories": "ще {count}"
+  },
+  "seo": {
+    "productsListing": {
+      "title": "Каталог",
+      "description": "Перегляньте повну колекцію якісного одягу Mirox. Вигідні ціни та швидка доставка по всій Україні.",
+      "ogDescription": "Перегляньте повну колекцію якісного одягу Mirox."
+    },
+    "categoriesListing": {
+      "title": "Категорії",
+      "description": "Перегляньте товари за категоріями. Знайдіть саме те, що шукаєте, у нашій зручній колекції.",
+      "ogTitle": "Категорії",
+      "ogDescription": "Перегляньте товари за категоріями."
+    },
+    "auth": {
+      "login": {
+        "title": "Увійти",
+        "description": "Увійдіть у свій акаунт {name}, щоб переглядати замовлення, збережені товари та інше."
+      },
+      "register": {
+        "title": "Створити акаунт",
+        "description": "Створіть акаунт {name}, щоб зберігати обране, відстежувати замовлення та оформлювати покупки швидше."
+      }
+    },
+    "productNotFound": "Товар не знайдено"
+  },
+  "admin": {
+    "layout": {
+      "title": "Панель адміністратора"
+    },
+    "nav": {
+      "dashboard": "Огляд",
+      "products": "Товари",
+      "categories": "Категорії",
+      "orders": "Замовлення",
+      "reviews": "Відгуки",
+      "newsletter": "Розсилка",
+      "customers": "Клієнти",
+      "suppliers": "Постачальники",
+      "settings": "Налаштування",
+      "wordmark": "Адмін",
+      "backToStore": "Повернутися до магазину"
+    },
+    "dashboard": {
+      "title": "Огляд",
+      "subtitle": "Огляд ефективності вашого магазину.",
+      "stats": {
+        "totalRevenue": "Всього доходу",
+        "orders": "Замовлення",
+        "products": "Товари",
+        "customers": "Клієнти",
+        "subscribers": "Підписники",
+        "changeFromLastMonth": "+0% порівняно з минулим місяцем",
+        "activeProducts": "Активні товари",
+        "registeredUsers": "Зареєстровані користувачі",
+        "activeSubscribers": "Активні підписники розсилки"
+      },
+      "recentOrders": {
+        "title": "Останні замовлення",
+        "empty": "Замовлень поки немає.",
+        "description": "Замовлення з'являться тут, щойно клієнти почнуть здійснювати покупки."
+      },
+      "quickActions": {
+        "title": "Швидкі дії",
+        "subtitle": "Типові завдання",
+        "addProducts": "Додати нові товари",
+        "manageCategories": "Керувати категоріями",
+        "configureSuppliers": "Налаштувати постачальників",
+        "updateSettings": "Оновити налаштування магазину"
+      }
+    },
+    "customers": {
+      "title": "Клієнти",
+      "subtitle": "Керування обліковими записами клієнтів",
+      "searchPlaceholder": "Пошук за іменем або email…",
+      "headers": {
+        "customer": "Клієнт",
+        "email": "Email",
+        "orders": "Замовлення",
+        "totalSpent": "Всього витрачено",
+        "joined": "Дата реєстрації"
+      },
+      "empty": "Клієнтів не знайдено",
+      "tryAdjusting": "Спробуйте змінити пошуковий запит",
+      "anonymous": "Без імені",
+      "loadError": "Не вдалося завантажити клієнтів",
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# клієнта} few {# клієнтів} many {# клієнтів} other {# клієнта}}"
+    },
+    "categories": {
+      "title": "Категорії",
+      "subtitle": "Керування категоріями та підкатегоріями товарів",
+      "addButton": "Додати категорію",
+      "searchPlaceholder": "Пошук категорій…",
+      "filterPlaceholder": "Фільтр за батьківською категорією",
+      "allCategories": "Усі категорії",
+      "rootCategories": "Кореневі категорії",
+      "headers": {
+        "name": "Назва",
+        "parent": "Батьківська категорія",
+        "products": "Товари",
+        "subcategories": "Підкатегорії",
+        "order": "Порядок",
+        "status": "Статус"
+      },
+      "status": {
+        "active": "Активний",
+        "inactive": "Неактивний"
+      },
+      "empty": "Категорій не знайдено",
+      "createFirstButton": "Створити першу категорію",
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# категорії} few {# категорій} many {# категорій} other {# категорії}}",
+      "form": {
+        "createTitle": "Створити категорію",
+        "editTitle": "Редагувати категорію",
+        "nameLabel": "Назва *",
+        "namePlaceholder": "Назва категорії",
+        "slugLabel": "Slug",
+        "slugHint": "Латиницею. Для нової категорії заповнюється з назви автоматично.",
+        "descriptionLabel": "Опис",
+        "descriptionPlaceholder": "Опис категорії",
+        "imageLabel": "URL зображення",
+        "parentLabel": "Батьківська категорія",
+        "noneRootCategory": "Немає (коренева категорія)",
+        "sortOrderLabel": "Порядок сортування",
+        "activeLabel": "Активний",
+        "saving": "Збереження…",
+        "update": "Оновити"
+      },
+      "deleteDialog": {
+        "title": "Видалити категорію",
+        "confirmText": "Ви впевнені, що хочете видалити «{name}»?",
+        "hasProductsWarning": "Ця категорія містить {count, plural, one {# товар} few {# товари} many {# товарів} other {# товарів}} і не може бути видалена, доки їх не буде переміщено або видалено.",
+        "hasChildrenWarning": "Ця категорія містить {count, plural, one {# підкатегорію} few {# підкатегорії} many {# підкатегорій} other {# підкатегорій}} і не може бути видалена, доки їх не буде переміщено або видалено.",
+        "deleting": "Видалення…"
+      },
+      "loadError": "Не вдалося завантажити категорії",
+      "updateSuccess": "Категорію успішно оновлено",
+      "createSuccess": "Категорію успішно створено",
+      "saveError": "Не вдалося зберегти категорію",
+      "deleteSuccess": "Категорію успішно видалено",
+      "deleteError": "Не вдалося видалити категорію",
+      "byCode": {
+        "VALIDATION_ERROR": "Перевірте поля форми — деякі значення некоректні.",
+        "SLUG_EMPTY": "Не вдалося створити slug з цього тексту. Впишіть slug латиницею або очистіть поле, щоб він створився з назви категорії.",
+        "SLUG_TAKEN": "Такий slug уже має інша категорія. Вкажіть інший.",
+        "PARENT_NOT_FOUND": "Батьківську категорію не знайдено. Оновіть сторінку й оберіть іншу.",
+        "SELF_PARENT": "Категорія не може бути батьківською для самої себе.",
+        "CIRCULAR_PARENT": "Ця батьківська категорія вкладена в поточну — оберіть іншу.",
+        "CATEGORY_NOT_FOUND": "Категорію не знайдено — можливо, її вже видалено.",
+        "CREATE_FAILED": "Не вдалося створити категорію. Спробуйте ще раз.",
+        "UPDATE_FAILED": "Не вдалося оновити категорію. Спробуйте ще раз."
+      }
+    },
+    "settings": {
+      "title": "Налаштування",
+      "subtitle": "Керування конфігурацією магазину",
+      "tabs": {
+        "general": "Загальні",
+        "email": "Email",
+        "shipping": "Доставка",
+        "payments": "Платежі"
+      },
+      "general": {
+        "cardTitle": "Інформація про магазин",
+        "cardDescription": "Основна інформація про ваш магазин",
+        "storeNameLabel": "Назва магазину",
+        "storeNamePlaceholder": "Моя крамниця",
+        "contactEmailLabel": "Контактний email",
+        "storeDescriptionLabel": "Опис магазину",
+        "storeDescriptionPlaceholder": "Опишіть ваш магазин…",
+        "supportPhoneLabel": "Телефон підтримки (необов'язково)",
+        "addressLabel": "Адреса компанії (необов'язково)",
+        "addressPlaceholder": "вул. Шевченка, 1, Київ, Україна",
+        "saveSuccess": "Налаштування магазину збережено",
+        "saveError": "Не вдалося зберегти налаштування магазину"
+      },
+      "email": {
+        "cardTitle": "Email-сповіщення",
+        "cardDescription": "Налаштуйте, які листи надсилаються автоматично",
+        "orderConfirmationLabel": "Підтвердження замовлення",
+        "orderConfirmationDescription": "Надсилати email, коли надходить нове замовлення",
+        "shippingUpdatesLabel": "Оновлення доставки",
+        "shippingUpdatesDescription": "Сповіщати клієнтів про зміну статусу замовлення",
+        "marketingEmailsLabel": "Рекламні листи",
+        "marketingEmailsDescription": "Надсилати клієнтам рекламні листи",
+        "lowStockAlertsLabel": "Сповіщення про низький залишок",
+        "lowStockAlertsDescription": "Отримувати сповіщення, коли товари закінчуються",
+        "saveSuccess": "Налаштування email збережено",
+        "saveError": "Не вдалося зберегти налаштування email"
+      },
+      "shipping": {
+        "cardTitle": "Тарифи доставки",
+        "cardDescription": "Налаштуйте вартість доставки та порогові значення",
+        "freeShippingLabel": "Поріг безкоштовної доставки (грн)",
+        "freeShippingHint": "Замовлення на суму понад цей поріг доставляються безкоштовно",
+        "standardShippingLabel": "Стандартна доставка (грн)",
+        "standardShippingHint": "Стандартний тариф доставки",
+        "expressShippingLabel": "Експрес-доставка (грн)",
+        "expressShippingHint": "Тариф для експрес-доставки",
+        "saveSuccess": "Налаштування доставки збережено",
+        "saveError": "Не вдалося зберегти налаштування доставки"
+      },
+      "payments": {
+        "cardTitle": "Налаштування оплати",
+        "cardDescription": "Керування налаштуваннями платіжного провайдера",
+        "connected": "Підключено",
+        "notConfigured": "Не налаштовано",
+        "envNotice": "З міркувань безпеки налаштування оплати задаються через змінні середовища.",
+        "envDetail": "Оновіть STRIPE_SECRET_KEY та STRIPE_PUBLISHABLE_KEY у файлі .env."
+      },
+      "defaults": {
+        "storeDescription": "Ваш магазин якісних товарів — усе в одному місці"
+      },
+      "saveChangesButton": "Зберегти зміни",
+      "saving": "Збереження…"
+    },
+    "orders": {
+      "title": "Замовлення",
+      "subtitle": "Керування та відстеження замовлень клієнтів",
+      "searchPlaceholder": "Пошук за номером замовлення, email або іменем клієнта…",
+      "export": "Експорт CSV",
+      "exporting": "Експортування…",
+      "allStatuses": "Усі статуси",
+      "allPaymentStatuses": "Усі статуси оплати",
+      "dateRange": {
+        "title": "Період",
+        "from": "Від",
+        "to": "До"
+      },
+      "clearFilters": "Скинути фільтри",
+      "headers": {
+        "order": "Замовлення",
+        "customer": "Клієнт",
+        "date": "Дата",
+        "status": "Статус",
+        "payment": "Оплата",
+        "total": "Всього"
+      },
+      "guest": "Гість",
+      "itemsCount": "{count, plural, one {# товар} few {# товари} many {# товарів} other {# товару}}",
+      "empty": {
+        "title": "Замовлень не знайдено",
+        "filtered": "Спробуйте змінити фільтри",
+        "default": "Замовлення з'являться тут, коли клієнти їх оформлять"
+      },
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# замовлення} few {# замовлень} many {# замовлень} other {# замовлення}}",
+      "pageOf": "Сторінка {page} з {total}",
+      "orderTitle": "Замовлення {num}",
+      "placedOn": "Оформлено {date}",
+      "notFound": "Замовлення не знайдено",
+      "loadFailed": "Не вдалося завантажити замовлення",
+      "backToOrders": "До замовлень",
+      "forwardToSuppliers": "Переслати постачальникам",
+      "forwarding": "Пересилання…",
+      "updateStatusButton": "Оновити статус",
+      "updateDialog": {
+        "title": "Оновити статус замовлення",
+        "description": "Змініть статус замовлення та додайте інформацію про відстеження.",
+        "statusLabel": "Статус",
+        "trackingNumberLabel": "Номер відстеження",
+        "trackingNumberPlaceholder": "Введіть номер відстеження",
+        "trackingUrlLabel": "URL відстеження",
+        "trackingUrlPlaceholder": "https://...",
+        "notesLabel": "Нотатки (необов'язково)",
+        "notesPlaceholder": "Додайте внутрішні нотатки щодо цього оновлення…",
+        "saveButton": "Зберегти зміни",
+        "saving": "Оновлення…"
+      },
+      "statusCard": {
+        "title": "Статус замовлення",
+        "cancelledMessage": "Замовлення скасовано",
+        "refundedMessage": "Замовлення повернуто",
+        "trackPackage": "Відстежити посилку"
+      },
+      "trackingLabel": "Номер відстеження:",
+      "timeline": {
+        "placed": "Замовлення оформлено",
+        "confirmed": "Замовлення підтверджено",
+        "processing": "Обробляється",
+        "shipped": "Відправлено",
+        "delivered": "Доставлено"
+      },
+      "items": {
+        "title": "Товари ({count})",
+        "sku": "SKU:"
+      },
+      "internalNotesTitle": "Внутрішні нотатки",
+      "customerNotesTitle": "Нотатки клієнта",
+      "supplierOrders": {
+        "title": "Замовлення постачальникам ({count})",
+        "orderId": "Замовлення постачальника:",
+        "cost": "Вартість:"
+      },
+      "summary": {
+        "title": "Разом",
+        "subtotal": "Товари",
+        "shipping": "Доставка",
+        "discount": "Знижка",
+        "tax": "Податок",
+        "total": "До сплати"
+      },
+      "customer": {
+        "title": "Клієнт",
+        "viewCustomer": "Переглянути клієнта"
+      },
+      "shippingAddress": "Адреса доставки",
+      "payment": {
+        "title": "Оплата",
+        "method": "Спосіб",
+        "methodDefault": "Картка",
+        "status": "Статус",
+        "paidOn": "Оплачено",
+        "paymentIntent": "Payment Intent:"
+      },
+      "updateSuccess": "Замовлення успішно оновлено",
+      "updateError": "Не вдалося оновити замовлення",
+      "forwardError": "Не вдалося переслати замовлення"
+    },
+    "suppliers": {
+      "title": "Постачальники",
+      "subtitle": "Керування постачальниками товарів ({count, plural, one {# постачальник} few {# постачальники} many {# постачальників} other {# постачальника}})",
+      "addButton": "Додати постачальника",
+      "searchPlaceholder": "Пошук постачальників…",
+      "statusFilter": {
+        "placeholder": "Усі статуси",
+        "active": "Активний",
+        "inactive": "Неактивний"
+      },
+      "apiFilter": {
+        "placeholder": "Статус API",
+        "all": "Усі",
+        "withApi": "З API",
+        "withoutApi": "Без API"
+      },
+      "headers": {
+        "supplier": "Постачальник",
+        "code": "Код",
+        "contact": "Контакт",
+        "products": "Товари",
+        "orders": "Замовлення",
+        "api": "API",
+        "status": "Статус"
+      },
+      "empty": {
+        "title": "Постачальників не знайдено",
+        "addFirstButton": "Додати першого постачальника"
+      },
+      "viewDetails": "Переглянути деталі",
+      "testConnection": "Перевірити з'єднання",
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# постачальника} few {# постачальників} many {# постачальників} other {# постачальника}}",
+      "pageOf": "Сторінка {page} з {total}",
+      "form": {
+        "createTitle": "Створити постачальника",
+        "editTitle": "Редагувати постачальника",
+        "createDescription": "Додайте нового постачальника для керування джерелами товарів.",
+        "editDescription": "Оновіть інформацію про постачальника нижче.",
+        "nameLabel": "Назва *",
+        "namePlaceholder": "Назва постачальника",
+        "codeLabel": "Код *",
+        "codePlaceholder": "SUP001",
+        "emailLabel": "Email",
+        "emailPlaceholder": "contact@supplier.com",
+        "phoneLabel": "Телефон",
+        "phonePlaceholder": "+1 234 567 8900",
+        "websiteLabel": "Вебсайт",
+        "websitePlaceholder": "https://supplier.com",
+        "apiConfigTitle": "Налаштування API",
+        "apiEndpointLabel": "Кінцева точка API",
+        "apiEndpointPlaceholder": "https://api.supplier.com/v1",
+        "apiKeyLabel": "API-ключ",
+        "apiKeyHint": "(залиште порожнім, щоб зберегти поточний)",
+        "apiKeyPlaceholder": "••••••••",
+        "apiTypeLabel": "Тип API",
+        "apiTypePlaceholder": "Оберіть тип",
+        "apiTypeBearer": "Bearer-токен",
+        "apiTypeApiKeyHeader": "Заголовок API-ключа",
+        "apiTypeBasic": "Базова автентифікація",
+        "apiTypeCustom": "Інший",
+        "notesLabel": "Нотатки",
+        "notesPlaceholder": "Додаткові нотатки про цього постачальника…",
+        "activeLabel": "Активний",
+        "nameCodeRequired": "Вкажіть назву та код",
+        "saving": "Збереження…",
+        "createButton": "Створити постачальника",
+        "updateButton": "Оновити постачальника"
+      },
+      "deleteDialog": {
+        "title": "Видалити постачальника",
+        "confirmText": "Ви впевнені, що хочете видалити цього постачальника? Цю дію неможливо скасувати.",
+        "deleting": "Видалення…"
+      },
+      "loadError": "Не вдалося завантажити постачальників",
+      "createSuccess": "Постачальника успішно створено",
+      "updateSuccess": "Постачальника успішно оновлено",
+      "saveError": "Не вдалося зберегти постачальника",
+      "deleteSuccess": "Постачальника успішно видалено",
+      "deleteError": "Не вдалося видалити постачальника",
+      "testConnectionError": "Не вдалося перевірити з'єднання",
+      "detail": {
+        "notFound": "Постачальника не знайдено",
+        "loadError": "Не вдалося завантажити постачальника",
+        "codeLabel": "Код: {code}",
+        "testing": "Перевірка…",
+        "deleteBlocked": "Неможливо видалити цього постачальника, оскільки до нього прив'язано {products, plural, one {# товар} few {# товари} many {# товарів} other {# товарів}} і {orders, plural, one {# замовлення} few {# замовлення} many {# замовлень} other {# замовлення}}.",
+        "contactInfo": {
+          "title": "Контактна інформація",
+          "empty": "Немає контактної інформації"
+        },
+        "apiConfig": {
+          "configuredDescription": "Для цього постачальника налаштовано інтеграцію з API",
+          "notConfiguredDescription": "Інтеграцію з API не налаштовано",
+          "endpointLabel": "Кінцева точка",
+          "authTypeLabel": "Тип автентифікації",
+          "notConfiguredHint": "Налаштуйте кінцеву точку API, щоб увімкнути автоматичну передачу замовлень."
+        },
+        "recentProducts": {
+          "title": "Останні товари",
+          "description": "Товари цього постачальника (показано останні 10)",
+          "empty": "Немає товарів, пов'язаних із цим постачальником"
+        },
+        "productsTable": {
+          "product": "Товар",
+          "sku": "SKU",
+          "supplierSku": "SKU постачальника",
+          "ourPrice": "Наша ціна",
+          "supplierPrice": "Ціна постачальника",
+          "stock": "Залишок"
+        },
+        "recentOrders": {
+          "title": "Останні замовлення",
+          "description": "Замовлення, надіслані цьому постачальнику (показано останні 10)",
+          "empty": "Замовлень цьому постачальнику ще не надсилали"
+        },
+        "ordersTable": {
+          "orderNumber": "№ замовлення",
+          "supplierOrderId": "ID замовлення постачальника",
+          "tracking": "Відстеження",
+          "cost": "Вартість",
+          "date": "Дата"
+        }
+      }
+    },
+    "products": {
+      "title": "Товари",
+      "subtitle": "Керування каталогом товарів ({count, plural, one {# товар} few {# товари} many {# товарів} other {# товару}})",
+      "importCsv": "Імпортувати CSV",
+      "addButton": "Додати товар",
+      "searchPlaceholder": "Пошук товарів…",
+      "categoryFilter": {
+        "placeholder": "Усі категорії"
+      },
+      "statusFilter": {
+        "placeholder": "Усі статуси",
+        "active": "Активний",
+        "inactive": "Неактивний"
+      },
+      "headers": {
+        "image": "Зображення",
+        "product": "Товар",
+        "sku": "SKU",
+        "category": "Категорія",
+        "price": "Ціна",
+        "stock": "Залишок",
+        "status": "Статус"
+      },
+      "featured": "Рекомендований",
+      "view": "Переглянути",
+      "empty": {
+        "title": "Товарів не знайдено",
+        "addFirstButton": "Додати перший товар"
+      },
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# товару} few {# товарів} many {# товарів} other {# товару}}",
+      "pageOf": "Сторінка {page} з {total}",
+      "deleteDialog": {
+        "title": "Видалити товар",
+        "confirmText": "Ви впевнені, що хочете видалити цей товар? Цю дію неможливо скасувати.",
+        "deleting": "Видалення…"
+      },
+      "loadError": "Не вдалося завантажити товари",
+      "deleteSuccess": "Товар успішно видалено",
+      "deleteError": "Не вдалося видалити товар",
+      "editTitle": "Редагувати товар",
+      "notFound": "Товар не знайдено",
+      "loadFailed": "Не вдалося завантажити товар",
+      "backToProducts": "До товарів",
+      "newTitle": "Новий товар",
+      "newDescription": "Додайте новий товар до каталогу"
+    },
+    "productForm": {
+      "cardTitles": {
+        "basicInfo": "Основна інформація",
+        "pricing": "Ціноутворення",
+        "inventory": "Склад",
+        "identifiers": "Ідентифікатори товару",
+        "status": "Статус",
+        "organization": "Організація"
+      },
+      "labels": {
+        "name": "Назва товару *",
+        "slug": "URL-слаг",
+        "shortDesc": "Короткий опис",
+        "description": "Повний опис",
+        "price": "Ціна *",
+        "comparePrice": "Стара ціна",
+        "costPrice": "Собівартість",
+        "sku": "SKU *",
+        "stock": "Кількість на складі *",
+        "brand": "Бренд",
+        "barcode": "GTIN / Штрихкод",
+        "mpn": "MPN",
+        "styleGroup": "Група кольорів",
+        "active": "Активний",
+        "featured": "Рекомендований",
+        "excludeFromFeed": "Не показувати у Google Shopping",
+        "category": "Категорія *"
+      },
+      "placeholders": {
+        "name": "Введіть назву товару",
+        "slug": "product-url-slug",
+        "shortDesc": "Короткий опис товару (макс. 500 символів)",
+        "description": "Детальний опис товару",
+        "amount": "0.00",
+        "sku": "PROD-001",
+        "stock": "0",
+        "brand": "напр. Nike",
+        "barcode": "напр. 0123456789012",
+        "mpn": "Номер деталі виробника",
+        "styleGroup": "напр. svetr-blyskavka",
+        "category": "Оберіть категорію"
+      },
+      "hints": {
+        "slug": "Можна залишити порожнім — слаг створиться з назви. Кирилиця, пробіли й великі літери перетворюються автоматично.",
+        "comparePrice": "Оригінальна ціна для відображення знижки",
+        "costPrice": "Ваша собівартість (для обліку прибутку)",
+        "identifiers": "Використовується для фіда Google Shopping та ідентифікації товару.",
+        "barcode": "UPC, EAN, ISBN або JAN",
+        "styleGroup": "Товари з однаковим значенням — це та сама модель в інших кольорах; на сторінці товару вони показуються як перемикач кольору.",
+        "active": "Товар видимий для клієнтів",
+        "featured": "Показувати на головній сторінці",
+        "excludeFromFeed": "Товар не потрапляє у фід Google Shopping (для товарів із чужими торговими марками на фото). Для нових товарів увімкнено за замовчуванням."
+      },
+      "generateFromName": "Згенерувати з назви",
+      "generateSku": "Згенерувати",
+      "submitCreate": "Створити товар",
+      "submitUpdate": "Оновити товар",
+      "toasts": {
+        "loadCategoriesError": "Не вдалося завантажити категорії",
+        "createSuccess": "Товар успішно створено",
+        "updateSuccess": "Товар успішно оновлено",
+        "saveError": "Не вдалося зберегти товар"
+      },
+      "byCode": {
+        "VALIDATION_ERROR": "Перевірте поля форми — деякі значення некоректні.",
+        "SLUG_EMPTY": "Не вдалося створити URL-слаг з цього тексту. Впишіть слаг латиницею або очистіть поле, щоб він створився з назви товару.",
+        "SLUG_TAKEN": "Такий URL-слаг уже має інший товар. Вкажіть інший.",
+        "SKU_TAKEN": "Товар із таким SKU вже існує. Вкажіть інший артикул.",
+        "CATEGORY_NOT_FOUND": "Обрану категорію не знайдено. Оновіть сторінку й оберіть категорію ще раз.",
+        "PRODUCT_NOT_FOUND": "Товар не знайдено — можливо, його вже видалено.",
+        "CREATE_FAILED": "Не вдалося створити товар. Спробуйте ще раз.",
+        "UPDATE_FAILED": "Не вдалося оновити товар. Спробуйте ще раз."
+      },
+      "errors": {
+        "nameRequired": "Вкажіть назву",
+        "pricePositive": "Ціна має бути додатним числом",
+        "skuRequired": "Вкажіть SKU",
+        "stockNonNegative": "Залишок має бути цілим невід'ємним числом",
+        "categoryRequired": "Оберіть категорію",
+        "comparePriceGreater": "Стара ціна має бути більшою за звичайну",
+        "styleGroupTooLong": "Група кольорів не повинна перевищувати 100 символів",
+        "costPricePositive": "Собівартість має бути додатним числом",
+        "barcodeTooLong": "Штрихкод — не довше 14 символів",
+        "brandTooLong": "Бренд — не довше 70 символів",
+        "mpnTooLong": "MPN — не довше 70 символів"
+      }
+    },
+    "imageUploader": {
+      "mainBadge": "Головне",
+      "imageAlt": "Зображення {index}",
+      "dropActive": "Відпустіть зображення тут",
+      "dragDrop": "Перетягніть зображення сюди",
+      "browseHint": "або натисніть, щоб обрати (макс. 5MB кожне)",
+      "countLabel": "{count}/{max} {max, plural, one {зображення} few {зображення} many {зображень} other {зображення}}",
+      "uploading": "Завантаження {count, plural, one {# файлу} few {# файлів} many {# файлів} other {# файлу}}…",
+      "onlyNMore": "Можна додати ще {count, plural, one {# зображення} few {# зображення} many {# зображень} other {# зображення}}",
+      "uploadFailed": "Не вдалося завантажити {name}",
+      "uploaded": "{count, plural, one {Завантажено # зображення} few {Завантажено # зображення} many {Завантажено # зображень} other {Завантажено # зображення}}"
+    },
+    "productImages": {
+      "title": "Зображення",
+      "description": "Перше зображення — головне (картка товару). Друге показується при наведенні на картку. Перетягніть, щоб змінити порядок, і збережіть його.",
+      "saveOrder": "Зберегти порядок",
+      "orderSaved": "Порядок збережено",
+      "toasts": {
+        "loadError": "Не вдалося завантажити зображення",
+        "attachError": "Не вдалося прикріпити {name}",
+        "removeError": "Не вдалося видалити зображення",
+        "orderError": "Не вдалося зберегти порядок"
+      }
+    },
+    "productImport": {
+      "title": "Імпорт товарів з CSV",
+      "description": "Оберіть CSV-файл, щоб масово імпортувати товари. Завантажте шаблон для правильного формату.",
+      "downloadTemplate": "Завантажити шаблон CSV",
+      "downloadTemplateError": "Не вдалося завантажити шаблон",
+      "dropActive": "Відпустіть CSV-файл тут",
+      "dragDrop": "Перетягніть CSV-файл сюди",
+      "browseHint": "або натисніть, щоб обрати файл",
+      "updateExisting": "Оновлювати наявні товари",
+      "updateExistingHint": "Оновлює товари з однаковим SKU",
+      "resultSucceeded": "{count} успішно",
+      "resultFailed": "{count} не вдалося",
+      "rowError": "Рядок {row} (SKU: {sku}): {error}",
+      "close": "Закрити",
+      "importButton": "Імпортувати товари",
+      "importingLabel": "Імпортування…",
+      "importFailed": "Не вдалося імпортувати",
+      "imported": "{count, plural, one {Імпортовано # товар} few {Імпортовано # товари} many {Імпортовано # товарів} other {Імпортовано # товару}}",
+      "failed": "{count, plural, one {Не вдалося імпортувати # товар} few {Не вдалося імпортувати # товари} many {Не вдалося імпортувати # товарів} other {Не вдалося імпортувати # товару}}"
+    },
+    "productVariants": {
+      "title": "Варіанти",
+      "description": "Розміри та колір товару. Назва варіанта — лише «Розмір» або «Колір»: саме ці значення шукає вітрина.",
+      "headers": {
+        "name": "Назва",
+        "value": "Значення",
+        "stock": "Залишок",
+        "actions": "Дії"
+      },
+      "namePlaceholder": "Назва",
+      "valuePlaceholder": "напр. M або Чорний",
+      "add": "Додати варіант",
+      "empty": "Варіантів ще немає.",
+      "toasts": {
+        "loadError": "Не вдалося завантажити варіанти",
+        "added": "Варіант додано",
+        "updated": "Варіант оновлено",
+        "deleted": "Варіант видалено",
+        "saveError": "Не вдалося зберегти варіант",
+        "deleteError": "Не вдалося видалити варіант",
+        "valueRequired": "Значення не може бути порожнім — залишено попереднє значення.",
+        "stockInvalid": "Залишок має бути невід'ємним числом — залишено попереднє значення.",
+        "noSwatch": "Для кольору «{value}» немає зразка — плашка кольору не відображатиметься."
+      },
+      "byCode": {
+        "PRODUCT_NOT_FOUND": "Товар не знайдено",
+        "VALIDATION_ERROR": "Перевірте назву, значення та залишок варіанта — щось не так.",
+        "DUPLICATE_VARIANT": "Варіант із такими назвою та значенням уже існує для цього товару.",
+        "VARIANT_NOT_FOUND": "Варіант не знайдено",
+        "VARIANT_REFERENCED": "Неможливо видалити варіант, на який посилаються замовлення або кошики. Замість цього встановіть залишок 0."
+      },
+      "fallback": "Сталася помилка. Спробуйте ще раз."
+    },
+    "supplierOrderStatus": {
+      "pending": "Очікує",
+      "submitted": "Надіслано",
+      "confirmed": "Підтверджено",
+      "shipped": "Відправлено",
+      "delivered": "Доставлено",
+      "cancelled": "Скасовано",
+      "failed": "Помилка"
+    },
+    "reviews": {
+      "title": "Відгуки",
+      "subtitle": "Керуйте відгуками клієнтів, відповідайте на них і модеруйте вміст.",
+      "searchPlaceholder": "Пошук відгуків…",
+      "ratingFilter": {
+        "placeholder": "Оцінка",
+        "all": "Усі оцінки",
+        "five": "5 зірок",
+        "four": "4 зірки",
+        "three": "3 зірки",
+        "two": "2 зірки",
+        "one": "1 зірка"
+      },
+      "visibilityFilter": {
+        "placeholder": "Видимість",
+        "all": "Усі",
+        "visible": "Видимий",
+        "hidden": "Приховано"
+      },
+      "headers": {
+        "product": "Товар",
+        "customer": "Клієнт",
+        "rating": "Оцінка",
+        "comment": "Коментар",
+        "status": "Статус",
+        "date": "Дата"
+      },
+      "anonymous": "Без імені",
+      "empty": "Відгуків не знайдено",
+      "replied": "Із відповіддю",
+      "reply": "Відповісти",
+      "editReply": "Редагувати відповідь",
+      "show": "Показати",
+      "hide": "Приховати",
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# відгуку} few {# відгуків} many {# відгуків} other {# відгуку}}",
+      "loadError": "Не вдалося завантажити відгуки",
+      "nowVisible": "Відгук знову видимий",
+      "nowHidden": "Відгук приховано",
+      "visibilityError": "Не вдалося оновити видимість відгуку",
+      "replyDialog": {
+        "newTitle": "Відповісти на відгук",
+        "editTitle": "Редагувати відповідь",
+        "description": "Ваша відповідь буде видима на сторінці товару під відгуком клієнта.",
+        "label": "Ваша відповідь",
+        "placeholder": "Напишіть вашу відповідь…",
+        "saveButton": "Зберегти відповідь",
+        "saving": "Збереження…"
+      },
+      "replySuccess": "Відповідь успішно збережено",
+      "replyError": "Не вдалося зберегти відповідь",
+      "deleteDialog": {
+        "title": "Видалити відгук",
+        "confirmText": "Це остаточно видалить цей відгук. Цю дію неможливо скасувати.",
+        "deleting": "Видалення…"
+      },
+      "deleteSuccess": "Відгук успішно видалено",
+      "deleteError": "Не вдалося видалити відгук"
+    },
+    "newsletter": {
+      "title": "Підписники розсилки",
+      "subtitle": "Керуйте підписками на email-розсилку.",
+      "export": "Експорт CSV",
+      "searchPlaceholder": "Пошук за email…",
+      "statusFilter": {
+        "placeholder": "Статус",
+        "all": "Усі статуси"
+      },
+      "status": {
+        "PENDING": "Очікує підтвердження",
+        "ACTIVE": "Активний",
+        "UNSUBSCRIBED": "Відписаний"
+      },
+      "headers": {
+        "email": "Email",
+        "status": "Статус",
+        "subscribed": "Дата підписки",
+        "created": "Створено"
+      },
+      "empty": "Підписників не знайдено",
+      "copyEmail": "Скопіювати email",
+      "activate": "Активувати",
+      "unsubscribe": "Відписати",
+      "showingRange": "Показано {from}–{to} із {total, plural, one {# підписника} few {# підписників} many {# підписників} other {# підписника}}",
+      "loadError": "Не вдалося завантажити підписників",
+      "activateSuccess": "Підписника активовано",
+      "unsubscribeSuccess": "Підписника відписано",
+      "updateError": "Не вдалося оновити підписника",
+      "copySuccess": "Email скопійовано в буфер обміну",
+      "deleteDialog": {
+        "title": "Видалити підписника",
+        "confirmText": "Це остаточно видалить цього підписника. Цю дію неможливо скасувати.",
+        "deleting": "Видалення…"
+      },
+      "deleteSuccess": "Підписника успішно видалено",
+      "deleteError": "Не вдалося видалити підписника"
+    },
+    "common": {
+      "save": "Зберегти",
+      "cancel": "Скасувати",
+      "delete": "Видалити",
+      "edit": "Редагувати",
+      "create": "Створити",
+      "add": "Додати",
+      "search": "Пошук",
+      "loading": "Завантаження…",
+      "actions": "Дії",
+      "previous": "Назад",
+      "next": "Далі",
+      "error": "Помилка",
+      "areYouSure": "Ви впевнені?",
+      "cannotBeUndone": "Цю дію неможливо скасувати."
+    }
+  },
+  "track": {
+    "page": {
+      "title": "Статус замовлення",
+      "description": "Введіть номер замовлення та email, який ви вказали при оформленні, щоб переглянути статус і деталі доставки."
+    },
+    "form": {
+      "orderNumberLabel": "Номер замовлення",
+      "orderNumberPlaceholder": "ORD-…",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "submit": "Перевірити",
+      "submitting": "Перевіряємо…"
+    },
+    "byCode": {
+      "ORDER_NOT_FOUND": "Замовлення з таким номером та email не знайдено. Перевірте дані та спробуйте ще раз.",
+      "TOO_MANY_ATTEMPTS": "Забагато спроб. Спробуйте знову через {minutes} хв.",
+      "VALIDATION_ERROR": "Перевірте номер замовлення та email — щось не так.",
+      "LOOKUP_FAILED": "Не вдалося перевірити замовлення. Спробуйте пізніше."
+    },
+    "fallback": "Не вдалося перевірити замовлення. Спробуйте пізніше.",
+    "status": {
+      "dateLabel": "Дата оформлення",
+      "statusLabel": "Статус",
+      "trackingLabel": "Номер відстеження",
+      "trackingLink": "Відстежити посилку",
+      "checkAnother": "Перевірити інше замовлення"
+    }
+  },
+  "pages": {
+    "terms": {
+      "meta": {
+        "title": "Публічна оферта",
+        "description": "Умови продажу товарів у Mirox Shop."
+      },
+      "title": "Публічна оферта",
+      "intro": "Цей документ є офіційною пропозицією Mirox Shop укласти договір купівлі-продажу товарів на умовах, викладених нижче. Відомості про продавця наведені в кінці цієї сторінки.",
+      "sections": [
+        {
+          "heading": "1. Загальні положення",
+          "body": [
+            "Цей документ є публічною офертою Mirox Shop (далі — «Продавець») укласти договір купівлі-продажу товарів дистанційним способом на умовах, викладених нижче. Оферта адресована невизначеному колу осіб і є публічним договором у розумінні статей 633 та 641 Цивільного кодексу України.",
+            "Договір за цією офертою укладається в електронній формі відповідно до статті 11 Закону України «Про електронну комерцію».",
+            "Оформлення замовлення означає повне та беззастережне прийняття (акцепт) умов цієї оферти. Якщо ви не погоджуєтесь із будь-якою з умов, не оформлюйте замовлення.",
+            "Продавець має право змінювати умови оферти. Зміни набирають чинності з моменту публікації нової редакції на сайті. До кожного замовлення застосовується та редакція, яка була розміщена на сайті на момент оформлення цього замовлення."
+          ]
+        },
+        {
+          "heading": "2. Терміни",
+          "body": ["У цій оферті наведені нижче терміни вживаються в такому значенні:"],
+          "list": [
+            "«Продавець» — Mirox Shop, особа, яка продає товари, представлені на Сайті; відомості про продавця наведені в кінці цієї сторінки.",
+            "«Покупець» — фізична особа, яка оформила Замовлення і тим самим прийняла умови цієї оферти.",
+            "«Товар» — одяг та аксесуари, представлені в каталозі Сайту.",
+            "«Замовлення» — належно оформлений запит Покупця на придбання та доставку обраних Товарів.",
+            "«Сайт» — інтернет-магазин Mirox Shop разом з усіма його сторінками."
+          ]
+        },
+        {
+          "heading": "3. Предмет договору",
+          "body": [
+            "Продавець зобов'язується передати у власність Покупця Товар, представлений у каталозі Сайту, а Покупець зобов'язується прийняти Товар і оплатити його на умовах цієї оферти.",
+            "Товаром є одяг та аксесуари. Опис, склад, розмірний ряд і зображення Товару наведені на його сторінці в каталозі. Зображення передають зовнішній вигляд Товару; відтінок кольору може незначно відрізнятися залежно від налаштувань екрана.",
+            "Ціною Товару є ціна, вказана на сторінці Товару на момент оформлення Замовлення."
+          ]
+        },
+        {
+          "heading": "4. Оформлення замовлення",
+          "body": [
+            "Замовлення оформлюється самостійно на Сайті або через месенджер за погодженням із Продавцем. Реєстрація облікового запису не є обов'язковою.",
+            "Оформлюючи Замовлення, Покупець повідомляє ім'я та прізвище, номер телефону, адресу електронної пошти та дані для доставки. Покупець відповідає за достовірність цих даних: якщо вони не дозволяють зв'язатися з ним або доставити Товар, Продавець не гарантує виконання Замовлення.",
+            "Замовлення вважається прийнятим після підтвердження Продавцем — телефоном, у месенджері або електронною поштою.",
+            "Продавець має право відхилити або скасувати Замовлення, якщо Товару немає в наявності або якщо Покупець не виходить на зв'язок для підтвердження. Про відхилення Замовлення Продавець повідомляє Покупця."
+          ]
+        },
+        {
+          "heading": "5. Ціна та оплата",
+          "body": [
+            "Ціни на Сайті вказані в гривнях. Ціна Товару фіксується в момент підтвердження Замовлення і надалі для цього Замовлення не змінюється.",
+            "Оплата здійснюється післяплатою — під час отримання Товару у відділенні, поштоматі або в кур'єра перевізника «Нова пошта». Передоплата не вимагається.",
+            "Онлайн-оплата карткою на Сайті наразі недоступна. Якщо такий спосіб оплати буде запроваджено, його умови будуть опубліковані в цій оферті.",
+            "Послуги перевізника, зокрема комісія за пересилання післяплати, оплачуються Покупцем окремо за тарифами перевізника."
+          ]
+        },
+        {
+          "heading": "6. Доставка",
+          "body": [
+            "Доставка здійснюється перевізником «Нова пошта» — у відділення, у поштомат або кур'єром за адресою. Спосіб доставки Покупець обирає під час оформлення Замовлення.",
+            "Вартість доставки залежить від обраного способу доставки, визначається Продавцем і відображається на Сайті під час оформлення Замовлення. Вона додається до суми Замовлення, фіксується в момент його підтвердження і сплачується Покупцем при отриманні Товару. Окремих умов безкоштовної доставки не передбачено.",
+            "Замовлення зазвичай передається перевізнику протягом одного-двох робочих днів після підтвердження, а строк перевезення залежить від перевізника та населеного пункту. Ці строки є орієнтовними і не є гарантованими.",
+            "Ризик випадкового знищення або випадкового пошкодження Товару переходить до Покупця з моменту отримання Товару від перевізника. Покупець перевіряє комплектність і зовнішній стан Товару при отриманні.",
+            "Докладніше про способи та строки доставки — на сторінці «Доставка і оплата» за адресою /shipping."
+          ]
+        },
+        {
+          "heading": "7. Повернення та обмін",
+          "body": [
+            "Покупець має право протягом 14 днів з дня отримання Товару належної якості обміняти його або повернути Продавцю в порядку статті 9 Закону України «Про захист прав споживачів».",
+            "Повернення Товару належної якості можливе за умови, що Товар не був у використанні, збережено його товарний вигляд, споживчі властивості, пломби та ярлики, а також є документ або інший доказ придбання Товару в Продавця.",
+            "Товар неналежної якості приймається до повернення або обміну незалежно від цього строку — в межах прав, передбачених статтею 8 Закону України «Про захист прав споживачів».",
+            "Повний порядок повернення, розподіл витрат на пересилання та строки повернення коштів описані на сторінці «Повернення та обмін» за адресою /returns."
+          ]
+        },
+        {
+          "heading": "8. Відповідальність сторін",
+          "body": [
+            "Сторони несуть відповідальність за невиконання або неналежне виконання своїх зобов'язань відповідно до законодавства України.",
+            "Продавець не відповідає за дії чи бездіяльність перевізника, зокрема за строки перевезення, втрату або пошкодження відправлення під час доставки; такі випадки врегульовуються за правилами перевізника.",
+            "Продавець не відповідає за наслідки використання Товару не за призначенням або з порушенням рекомендацій щодо догляду, зазначених на етикетці.",
+            "Сторона звільняється від відповідальності за невиконання зобов'язань, якщо воно спричинене обставинами непереборної сили (форс-мажор), зокрема воєнними діями, рішеннями органів державної влади, аваріями та тривалими перебоями в електропостачанні чи зв'язку. Про настання таких обставин сторона повідомляє іншу сторону без невиправданої затримки.",
+            "Обмеження відповідальності, передбачені цією офертою, застосовуються лише тією мірою, якою вони не суперечать правам споживача, встановленим законодавством України."
+          ]
+        },
+        {
+          "heading": "9. Персональні дані",
+          "body": [
+            "Оформлюючи Замовлення, Покупець надає Продавцю згоду на обробку своїх персональних даних з метою виконання договору відповідно до Закону України «Про захист персональних даних».",
+            "Обсяг даних, підстави та строки їх обробки, перелік отримувачів і права Покупця описані в Політиці конфіденційності за адресою /privacy."
+          ]
+        },
+        {
+          "heading": "10. Порядок вирішення спорів",
+          "body": [
+            "Спори, що виникають за цією офертою, сторони намагаються врегулювати шляхом переговорів. Звернення можна надіслати через форму зворотного зв'язку на Сайті; Продавець розглядає його в розумний строк.",
+            "Якщо згоди не досягнуто, спір вирішується в судовому порядку за законодавством України. До відносин сторін застосовується право України.",
+            "Покупець також має право звернутися до органу, що здійснює державний захист прав споживачів, у порядку, встановленому законодавством."
+          ]
+        },
+        {
+          "heading": "11. Строк дії оферти",
+          "body": [
+            "Оферта набирає чинності з дня її публікації на Сайті і діє безстроково — до дня опублікування нової редакції або до відкликання оферти Продавцем.",
+            "Відкликання оферти або зміна її умов не впливає на Замовлення, підтверджені до моменту такої зміни."
+          ]
+        },
+        {
+          "heading": "12. Продавець",
+          "body": [
+            "Відомості про продавця та спосіб зв'язку з ним наведені в блоці в кінці цієї сторінки. Через цей же канал зв'язку приймаються звернення щодо замовлень, повернень і обробки персональних даних."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "meta": {
+        "title": "Політика конфіденційності",
+        "description": "Які персональні дані збирає Mirox Shop, навіщо їх обробляє, кому передає та які права має покупець."
+      },
+      "title": "Політика конфіденційності",
+      "intro": "Ця політика пояснює, які персональні дані ми збираємо, навіщо їх обробляємо та які права ви маєте. Відомості про продавця наведені в кінці цієї сторінки.",
+      "sections": [
+        {
+          "heading": "1. Хто обробляє ваші дані",
+          "body": [
+            "Володільцем персональних даних, зібраних через цей сайт, є Mirox Shop — інтернет-магазин одягу (далі — «ми»). Відомості про продавця та спосіб зв'язку з ним наведені в блоці в кінці цієї сторінки.",
+            "Обробка персональних даних здійснюється відповідно до Закону України «Про захист персональних даних»."
+          ]
+        },
+        {
+          "heading": "2. Які дані ми збираємо",
+          "body": [
+            "Ми збираємо лише ті дані, які потрібні для оформлення та виконання замовлення:"
+          ],
+          "list": [
+            "ім'я та прізвище;",
+            "номер телефону;",
+            "адресу електронної пошти;",
+            "дані для доставки — місто та відділення або адресу;",
+            "історію замовлень: склад замовлення, суму, статус і листування щодо нього;",
+            "технічні дані: IP-адресу, тип браузера та пристрою, дані з файлів cookie."
+          ]
+        },
+        {
+          "heading": "3. Навіщо ми їх обробляємо",
+          "body": ["Ми використовуємо ці дані з такими цілями:"],
+          "list": [
+            "оформлення, комплектація та доставка замовлення;",
+            "зв'язок із покупцем щодо замовлення — підтвердження, уточнення, статус доставки;",
+            "опрацювання повернень, обмінів і звернень щодо якості товару;",
+            "надсилання новин і пропозицій електронною поштою — лише за окремою явною згодою, яку можна відкликати будь-коли;",
+            "знеособлена аналітика відвідування сайту, щоб покращувати роботу магазину."
+          ]
+        },
+        {
+          "heading": "4. Підстави обробки",
+          "body": [
+            "Ми обробляємо дані на підставі необхідності виконання договору, стороною якого є покупець (оформлене замовлення), та на підставі вашої згоди — для розсилки й аналітики. Підстави обробки визначені Законом України «Про захист персональних даних».",
+            "Окремі дані ми зберігаємо також на виконання вимог законодавства, зокрема у сфері бухгалтерського обліку та захисту прав споживачів.",
+            "Надання даних є добровільним, однак без імені, номера телефону та даних для доставки виконати замовлення неможливо."
+          ]
+        },
+        {
+          "heading": "5. Кому ми передаємо дані",
+          "body": [
+            "Ми передаємо дані лише тим, без кого неможливо виконати замовлення або забезпечити роботу сайту:"
+          ],
+          "list": [
+            "перевізнику «Нова пошта» — ім'я, прізвище, номер телефону та дані відділення або адресу, щоб доставити замовлення;",
+            "сервісу надсилання електронної пошти — адресу e-mail, щоб надіслати лист про замовлення або підтвердження підписки;",
+            "сервісу веб-аналітики — знеособлені технічні дані про відвідування сайту;",
+            "органам державної влади — виключно у випадках і в порядку, прямо передбачених законом."
+          ]
+        },
+        {
+          "heading": "6. Скільки ми їх зберігаємо",
+          "body": [
+            "Дані замовлення ми зберігаємо стільки, скільки потрібно для його виконання та для розгляду можливих претензій і повернень, а також протягом строків, установлених законодавством для зберігання відповідних документів.",
+            "Дані, які обробляються на підставі згоди — зокрема адресу для розсилки, — ми зберігаємо до відкликання згоди.",
+            "Після спливу строку зберігання дані видаляються або знеособлюються."
+          ]
+        },
+        {
+          "heading": "7. Ваші права",
+          "body": ["Відповідно до Закону України «Про захист персональних даних» ви маєте право:"],
+          "list": [
+            "знати, які ваші дані ми обробляємо, з якою метою і кому передаємо;",
+            "отримати доступ до своїх даних;",
+            "вимагати виправлення неточних або неповних даних;",
+            "вимагати видалення даних, якщо немає законних підстав продовжувати обробку;",
+            "відкликати згоду на обробку — зокрема відписатися від розсилки за посиланням у листі;",
+            "заперечувати проти обробки та звертатися зі скаргою до Уповноваженого Верховної Ради України з прав людини."
+          ]
+        },
+        {
+          "heading": "8. Cookies та локальне сховище",
+          "body": [
+            "Сайт зберігає частину даних безпосередньо у вашому браузері, щоб працювати коректно між переходами сторінок. Для цього використовуються два механізми сховища браузера: файли cookie та локальне сховище (localStorage).",
+            "У файлах cookie зберігаються сесія авторизації, якщо ви увійшли в обліковий запис, та обрана мова інтерфейсу. Коли ви оформлюєте замовлення або знаходите його за номером і електронною поштою на сторінці «Статус замовлення», у файлах cookie на 24 години зберігається тимчасова позначка: вона дозволяє відкривати сторінку саме цього замовлення без входу в обліковий запис. У локальному сховищі зберігаються вміст кошика та ваш вибір у банері згоди.",
+            "Під час першого візиту ми показуємо банер згоди. Скрипти аналітики завантажуються лише після того, як ви натиснете «Прийняти». Якщо ви відмовитесь, аналітика не підключається, а технічно необхідні дані у сховищі браузера продовжують зберігатися.",
+            "Очистити збережені дані можна будь-коли в налаштуваннях браузера — у розділі, що відповідає за файли cookie та дані сайтів."
+          ]
+        },
+        {
+          "heading": "9. Зміни до політики",
+          "body": [
+            "Ми можемо оновлювати цю політику — наприклад, якщо зміняться сервіси, якими ми користуємось, або вимоги законодавства. Чинна редакція завжди опублікована на цій сторінці.",
+            "Продовження користування сайтом після публікації змін означає, що ви ознайомилися з оновленою редакцією."
+          ]
+        }
+      ]
+    },
+    "returns": {
+      "meta": {
+        "title": "Повернення та обмін",
+        "description": "Умови повернення й обміну товарів у Mirox Shop: 14 днів, порядок оформлення та строки повернення коштів."
+      },
+      "title": "Повернення та обмін",
+      "intro": "Товар належної якості можна повернути або обміняти протягом 14 днів після отримання. Нижче — умови та порядок оформлення. Відомості про продавця наведені в кінці цієї сторінки.",
+      "sections": [
+        {
+          "heading": "1. Строк повернення",
+          "body": [
+            "Товар належної якості можна обміняти або повернути протягом 14 днів з дня його отримання. Це право передбачене статтею 9 Закону України «Про захист прав споживачів».",
+            "Строк вважається дотриманим, якщо ви звернулися до нас у межах цих 14 днів, навіть якщо посилку буде відправлено на кілька днів пізніше за погодженням із нами.",
+            "Товар неналежної якості можна повернути й після спливу цього строку — у межах гарантійного строку, а якщо гарантійний строк не встановлений, протягом двох років з дня передання товару."
+          ]
+        },
+        {
+          "heading": "2. Умови повернення",
+          "body": [
+            "Товар належної якості приймається до повернення або обміну, якщо одночасно виконані такі умови:"
+          ],
+          "list": [
+            "товар не був у використанні: його не носили, не прали й не піддавали хімічному чищенню;",
+            "збережені фабричні ярлики, бирки та пломби;",
+            "збережені товарний вигляд і споживчі властивості товару;",
+            "збережене заводське пакування;",
+            "немає слідів використання — плям, затяжок, слідів косметики, стороннього запаху;",
+            "є документ або інший доказ придбання товару саме в нас: номер замовлення, розрахунковий документ або лист-підтвердження."
+          ]
+        },
+        {
+          "heading": "3. Як оформити повернення",
+          "body": ["Порядок дій такий:"],
+          "list": [
+            "1. Напишіть нам через форму зворотного зв'язку на сайті або в Telegram. Вкажіть номер замовлення, назву товару та причину повернення.",
+            "2. Дочекайтеся відповіді: ми погодимо повернення і повідомимо, на яке відділення надсилати посилку.",
+            "3. Надішліть товар перевізником «Нова пошта», доклавши до посилки номер замовлення та реквізити для повернення коштів.",
+            "4. Після отримання посилки ми оглянемо товар на відповідність умовам розділу 2 і повідомимо вас про результат.",
+            "5. Якщо умови дотримані, ми повернемо кошти або надішлемо товар на обмін."
+          ]
+        },
+        {
+          "heading": "4. Хто оплачує пересилку",
+          "body": [
+            "Якщо ви повертаєте товар належної якості — він не підійшов або ви передумали, — пересилання в обидва боки оплачуєте ви.",
+            "Якщо товар виявився неналежної якості, некомплектним або ми надіслали не ту модель чи не той розмір, витрати на пересилання несемо ми. Збережіть розрахунковий документ перевізника: ми компенсуємо цю суму разом із поверненням коштів."
+          ]
+        },
+        {
+          "heading": "5. Строк повернення коштів",
+          "body": [
+            "Кошти повертаються після огляду товару та підтвердження, що умови повернення дотримані — як правило, протягом кількох робочих днів з дня отримання посилки.",
+            "Строки задоволення вимог споживача, встановлені Законом України «Про захист прав споживачів», ми дотримуємо в усіх випадках, коли закон визначає їх прямо.",
+            "Оскільки оплата здійснюється післяплатою, кошти повертаються переказом на банківські реквізити, які ви вкажете під час оформлення повернення."
+          ]
+        },
+        {
+          "heading": "6. Обмін",
+          "body": [
+            "Обмін здійснюється на тих самих умовах, що й повернення, і залежить від наявності потрібного розміру чи кольору.",
+            "Якщо потрібної позиції немає, ми запропонуємо іншу модель на ту саму суму або повернемо кошти — на ваш вибір.",
+            "Пересилання при обміні товару належної якості оплачує покупець."
+          ]
+        },
+        {
+          "heading": "7. Товар неналежної якості",
+          "body": [
+            "Якщо в товарі виявлено недолік, ви маєте право за своїм вибором вимагати пропорційного зменшення ціни, безоплатного усунення недоліків у розумний строк або відшкодування витрат на їх усунення. Ці права передбачені статтею 8 Закону України «Про захист прав споживачів».",
+            "Якщо недолік є істотним і виник з вини виробника або продавця, ви маєте право за своїм вибором вимагати розірвання договору з поверненням сплаченої суми або заміни товару на такий самий чи аналогічний.",
+            "Напишіть нам через форму зворотного зв'язку, додайте номер замовлення та фото недоліку — ми розглянемо звернення й повідомимо про рішення.",
+            "Ви також можете звернутися до органу, що здійснює державний захист прав споживачів, у порядку, встановленому законодавством."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "meta": {
+        "title": "Питання та відповіді",
+        "description": "Відповіді на найчастіші питання про оформлення замовлення, доставку, оплату при отриманні, повернення та підбір розміру."
+      },
+      "title": "Питання та відповіді",
+      "intro": "Тут зібрані питання, які нам ставлять найчастіше. Якщо відповіді на ваше питання тут немає — напишіть нам.",
+      "sections": [
+        {
+          "heading": "Чи потрібна передоплата?",
+          "body": [
+            "Ні. Ми працюємо без передоплати: ви оплачуєте замовлення при отриманні — у відділенні, поштоматі або в кур'єра «Нової пошти».",
+            "Онлайн-оплата карткою на сайті наразі недоступна."
+          ]
+        },
+        {
+          "heading": "Як оформити замовлення?",
+          "body": [
+            "Додайте потрібні товари в кошик і перейдіть до оформлення. Далі потрібно пройти три кроки: контактні дані, спосіб і адреса доставки, оплата.",
+            "На останньому кроці ви бачите підсумок замовлення разом із вартістю доставки і підтверджуєте його. Після підтвердження відкриється сторінка з номером вашого замовлення."
+          ]
+        },
+        {
+          "heading": "Чи можна замовити без реєстрації?",
+          "body": [
+            "Так. Обліковий запис не потрібен: оформити замовлення можна як гість, вказавши ім'я, телефон і електронну пошту.",
+            "Якщо ви створите обліковий запис, наступні замовлення, оформлені після входу в нього, зберігатимуться в ньому, і їх не доведеться шукати за номером. Замовлення, зроблені раніше як гість, до облікового запису не переносяться — їх статус завжди можна перевірити за номером на сторінці /track."
+          ]
+        },
+        {
+          "heading": "Як дізнатися статус замовлення?",
+          "body": [
+            "Відкрийте сторінку «Статус замовлення» за адресою /track та введіть номер замовлення і електронну пошту, яку ви вказали під час оформлення. Ми покажемо поточний статус, склад і суму замовлення.",
+            "Якщо замовлення вже відправлене і ми додали номер накладної, він теж буде на цій сторінці."
+          ]
+        },
+        {
+          "heading": "Які способи доставки ви пропонуєте?",
+          "body": [
+            "Доставку виконує перевізник «Нова пошта»: у відділення, у поштомат або кур'єром на вашу адресу. Спосіб ви обираєте під час оформлення замовлення.",
+            "Докладніше — на сторінці «Доставка і оплата» за адресою /shipping."
+          ]
+        },
+        {
+          "heading": "Скільки коштує доставка?",
+          "body": [
+            "Вартість залежить від обраного способу доставки. Точну суму ви бачите під час оформлення замовлення — вона додається до суми замовлення ще до того, як ви його підтвердите.",
+            "Безкоштовної доставки ми не пропонуємо: вона оплачується при будь-якій сумі замовлення. Послуги перевізника, зокрема комісія за переказ коштів при післяплаті, оплачуються окремо за тарифами перевізника."
+          ]
+        },
+        {
+          "heading": "Чи можна повернути або обміняти товар?",
+          "body": [
+            "Так. Товар належної якості можна повернути або обміняти протягом 14 днів з дня отримання, якщо він не був у використанні та збережено його товарний вигляд, споживчі властивості, пломби і ярлики.",
+            "Товар неналежної якості приймається незалежно від цього строку. Повний порядок оформлення та розподіл витрат на пересилання описані на сторінці «Повернення та обмін» за адресою /returns."
+          ]
+        },
+        {
+          "heading": "Як підібрати розмір?",
+          "body": [
+            "На сторінках товарів із розмірами S–XXL працює підбір розміру: вкажіть свій зріст і вагу — і ми покажемо рекомендований розмір.",
+            "Це орієнтовна рекомендація, а не заміри конкретної моделі. Підбір не обирає розмір за вас: потрібний розмір ви позначаєте самі в блоці покупки. Таблиць замірів для окремих моделей на сайті поки немає.",
+            "Якщо ви вагаєтеся між двома розмірами, напишіть нам — підкажемо."
+          ]
+        },
+        {
+          "heading": "Чи є у вас фізичний магазин?",
+          "body": [
+            "Ні, Mirox Shop працює лише онлайн. Замовлення оформлюються на сайті, а товар ви отримуєте у відділенні, поштоматі або від кур'єра «Нової пошти».",
+            "Приміряти річ перед покупкою тому не вийде — натомість діє право повернути товар належної якості протягом 14 днів після отримання."
+          ]
+        },
+        {
+          "heading": "Як з вами зв'язатися?",
+          "body": [
+            "Напишіть нам через форму зворотного зв'язку на сайті або в месенджері — усі канали зібрані на сторінці «Контакти» за адресою /contact.",
+            "Якщо питання стосується конкретного замовлення, вкажіть його номер: так ми відповімо швидше."
+          ]
+        }
+      ]
+    },
+    "shipping": {
+      "meta": {
+        "title": "Доставка і оплата",
+        "description": "Способи доставки «Новою поштою», вартість, строки відправлення та оплата при отриманні в Mirox Shop."
+      },
+      "title": "Доставка і оплата",
+      "intro": "Ми надсилаємо замовлення перевізником «Нова пошта» по всій Україні. Оплата — при отриманні, без передоплати.",
+      "sections": [
+        {
+          "heading": "1. Способи доставки",
+          "body": [
+            "Усі відправлення ми надсилаємо перевізником «Нова пошта» — інших перевізників ми наразі не використовуємо.",
+            "Спосіб доставки ви обираєте під час оформлення замовлення:"
+          ],
+          "list": [
+            "Відділення «Нової пошти» — ви забираєте посилку у відділенні, яке оберете.",
+            "Поштомат «Нової пошти» — ви забираєте посилку самостійно, коли вам зручно.",
+            "Кур'єр «Нової пошти» — посилку привозять на вказану вами адресу."
+          ]
+        },
+        {
+          "heading": "2. Вартість доставки",
+          "body": [
+            "Вартість доставки залежить від обраного способу. Точну суму ви бачите під час оформлення замовлення: вона додається до суми замовлення і показується в підсумку ще до того, як ви підтвердите замовлення.",
+            "Для кожного способу доставки на сайті діє фіксована сума — вона не перераховується за вагою посилки чи відстанню.",
+            "Окремих умов безкоштовної доставки не передбачено: доставка оплачується при будь-якій сумі замовлення.",
+            "Послуги перевізника, зокрема комісія за переказ коштів при післяплаті, оплачуються окремо за тарифами перевізника."
+          ]
+        },
+        {
+          "heading": "3. Строки відправлення",
+          "body": [
+            "Замовлення ми зазвичай передаємо перевізнику протягом одного-двох робочих днів після підтвердження. Строк перевезення залежить від перевізника та населеного пункту.",
+            "Ці строки є орієнтовними і не є гарантованими — за затримки на боці перевізника ми не відповідаємо.",
+            "Якщо вам потрібна інформація про конкретне замовлення, напишіть нам і вкажіть його номер."
+          ]
+        },
+        {
+          "heading": "4. Оплата",
+          "body": [
+            "Оплата здійснюється при отриманні (післяплатою): ви платите за замовлення тоді, коли забираєте посилку у відділенні, поштоматі або в кур'єра. У відділенні можна розрахуватися готівкою або карткою.",
+            "Передоплату ми не вимагаємо. Онлайн-оплата карткою на сайті наразі недоступна.",
+            "Якщо ви хочете оплатити замовлення наперед, напишіть нам — ми узгодимо спосіб оплати окремо.",
+            "Повні умови купівлі-продажу викладені в публічній оферті на сторінці «Публічна оферта» за адресою /terms."
+          ]
+        },
+        {
+          "heading": "5. Відстеження замовлення",
+          "body": [
+            "Статус замовлення можна перевірити на сторінці «Статус замовлення» за адресою /track. Для цього потрібні номер замовлення і та сама електронна пошта, яку ви вказали під час оформлення.",
+            "Номер замовлення показується на сторінці підтвердження одразу після оформлення — збережіть його.",
+            "Коли ми передаємо посилку перевізнику, ми додаємо до замовлення номер накладної: він з'являється на сторінці статусу замовлення разом із посиланням на відстеження в перевізника. Автоматичних сповіщень про відправлення ми поки не надсилаємо."
+          ]
+        }
+      ]
+    },
+    "about": {
+      "meta": {
+        "title": "Про нас",
+        "description": "Mirox Shop — український інтернет-магазин одягу: що ми продаємо, як працюємо та як доставляємо замовлення."
+      },
+      "title": "Про нас",
+      "intro": "Mirox Shop — український інтернет-магазин одягу. Ми працюємо онлайн і надсилаємо замовлення по всій Україні.",
+      "sections": [
+        {
+          "heading": "Про Mirox Shop",
+          "body": [
+            "Ми добираємо базові речі, які легко поєднувати між собою. Основні категорії — худі, олімпійки, светри, футболки, лонгсліви, штани, а також аксесуари: кепки й рюкзаки.",
+            "Сучасний одяг для тих, хто цінує якість і мінімалізм, — це те, як ми описуємо власний асортимент і підхід до вибору речей."
+          ]
+        },
+        {
+          "heading": "Як ми працюємо",
+          "body": [
+            "Кожне замовлення ми перевіряємо перед відправленням: звіряємо модель, колір і розмір із замовленням та оглядаємо річ на видимі дефекти.",
+            "Надсилаємо перевізником «Нова пошта» — у відділення, у поштомат або кур'єром. Оплата при отриманні, без передоплати: ви платите тоді, коли забираєте посилку.",
+            "Якщо річ не підійшла, її можна повернути або обміняти протягом 14 днів після отримання — умови описані на сторінці «Повернення та обмін» за адресою /returns."
+          ]
+        },
+        {
+          "heading": "Наш досвід",
+          "body": [
+            "До запуску цього сайту ми продавали онлайн на інших майданчиках. За нашими власними підрахунками, це понад 300 успішних покупок на OLX і понад 100 замовлень через Instagram.",
+            "Це наші власні цифри, а не результат незалежної перевірки. Відгуки на сайті — окрема річ: їх залишають тільки покупці, які справді отримали своє замовлення."
+          ]
+        }
+      ],
+      "credit": {
+        "heading": "Хто зробив цей сайт",
+        "body": "Сайт розробив",
+        "linkLabel": "GoodAlex223"
+      }
+    },
+    "contact": {
+      "meta": {
+        "title": "Контакти",
+        "description": "Зв'яжіться з Mirox Shop у Instagram, Telegram або TikTok — консультації, статус замовлення та відповіді на запитання."
+      },
+      "title": "Контакти",
+      "intro": "Ми завжди на зв'язку — пишіть у зручний месенджер, відповідаємо без вихідних.",
+      "managerLabel": "Менеджер",
+      "reviewsLabel": "Канал відгуків",
+      "delivery": {
+        "heading": "Доставка та оплата",
+        "items": [
+          "Доставляємо «Новою поштою»: відділення, поштомат або кур'єр.",
+          "Вартість доставки залежить від обраного способу доставки — ви бачите її під час оформлення замовлення.",
+          "Оплата — при отриманні, без передоплати."
+        ],
+        "moreLabel": "Докладніше про доставку"
+      },
+      "returns": {
+        "heading": "Повернення",
+        "items": [
+          "14 днів на повернення товару належної якості.",
+          "Річ має бути без слідів використання, зі збереженими бирками.",
+          "Перед відправкою ми перевіряємо кожну річ."
+        ],
+        "moreLabel": "Умови повернення"
+      },
+      "about": {
+        "heading": "Про Mirox Shop",
+        "body": "Mirox Shop — сучасний одяг для тих, хто цінує якість і мінімалізм. Кожну річ ми перевіряємо перед відправкою."
+      },
+      "stats": {
+        "olx": "покупок на OLX",
+        "instagram": "замовлень в Instagram"
+      },
+      "form": {
+        "heading": "Є питання?",
+        "body": "Опишіть ситуацію у формі зворотного зв'язку на сайті — відповімо якнайшвидше.",
+        "cta": "Форма зворотного зв'язку"
+      }
+    },
+    "common": {
+      "requisites": {
+        "heading": "Відомості про продавця",
+        "form": "Організаційно-правова форма",
+        "name": "Найменування",
+        "edrpou": "Код ЄДРПОУ / РНОКПП",
+        "address": "Адреса",
+        "email": "Електронна пошта",
+        "fallbackSeller": "Продавець",
+        "fallbackBody": "Mirox Shop — інтернет-магазин одягу. Зв'язатися з нами можна через форму зворотного зв'язку або в Telegram.",
+        "fallbackCta": "Форма зворотного зв'язку",
+        "fallbackTelegram": "Написати в Telegram"
+      }
+    }
+  }
+}

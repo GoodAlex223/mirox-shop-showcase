@@ -1,0 +1,104 @@
+# one deliberately-EXCLUDED fragment per line. Two kinds qualify:
+#   (a) rewritten in place — the string still exists somewhere, in another
+#       form (every entry below this line's original semantics), and
+#   (b) removed together with a surface that was RETIRED outright, so it has
+#       no catalog key by design (G12's block at the bottom, the first of
+#       this kind).
+# Kind (b) is not an extraction: there is no target string to transcribe
+# into, so there is nothing for the «цінує»→«цінює» corruption class to
+# corrupt. It is listed here rather than skipped in code on purpose — a
+# `--diff-filter=D` exemption in the script would silently un-check any
+# future commit that deletes a file AND extracts its strings.
+
+# TASK-039 Task 3 (cart extraction, commit 3e5f8ae): src/content/cart.ts's
+# summary.shippingValue carried a doc-comment quoting the RETIRED G1-era copy
+# it replaced in G2 ("«Розраховується при оформленні»" -> "За тарифами Нової
+# Пошти"). The comment (and the whole file) is deleted by this extraction;
+# the quoted phrase was never a live string and has no catalog key of its
+# own — the CURRENT live value (shippingValue) is extracted and verified
+# separately. Two fragments because the multi-line-comment fallback regex
+# split the quote across the wrapped comment lines.
+Розраховується при
+оформленні
+
+# TASK-039 Task 5 (checkout/auth/account/... extraction, commit 8d04973):
+# src/content/checkout.ts carried two doc-comments illustrating COMPOSED
+# render output, not live catalog strings themselves — both the comments and
+# the fields they annotated are deleted by this extraction:
+#   - `/** The live total is appended in the page: «ПІДТВЕРДИТИ ЗАМОВЛЕННЯ —
+#     1 960 грн». */` above `payment.submit` — "ПІДТВЕРДИТИ ЗАМОВЛЕННЯ" itself
+#     IS the live catalog value (checkout.payment.submit, extracted and
+#     verified) and matches automatically; "грн" is the currency suffix that
+#     formatPrice() appends at render time (src/lib/format.ts, never
+#     catalog-sourced), so it has
+#     no catalog key of its own.
+#   - `/** «1 шт» — quantity unit used in the variant line «Чорний · L ·
+#     1 шт». */` above `summary.qty` — "шт" IS live (part of the extracted
+#     ICU pattern "{count} шт", matches automatically); "Чорний" is an
+#     illustrative example PRODUCT VARIANT COLOR name (DB/cart-store data,
+#     e.g. item.color — never sourced from content/checkout.ts), not a
+#     content-layer string.
+грн
+Чорний
+
+# TASK-039 Task 7 (reviews/categories/share sweep, commit e10336a): completing
+# the full-sweep AC required rewording 10 pre-existing dev/JSDoc comments
+# (left in place, untouched, by Tasks 3-6 since their quoted words happened to
+# coincidentally already be live catalog values) to English — these 9
+# fragments were never live catalog strings to begin with, so they have no
+# home in messages/uk.json:
+#   - "Адреси" / "Налаштування" (src/app/(shop)/account/layout.tsx) — future
+#     page names (Addresses/Settings) for /account/addresses and
+#     /account/settings, which don't exist yet (404 today, per the comment
+#     itself, BACKLOG'd). Not catalog-worthy: the pages/nav links don't exist.
+#   - "У вибране" / "Відкрити фото замірів" (product-detail-client.tsx) —
+#     future feature labels (Wishlist / Open size-chart photo) explicitly not
+#     built yet, per spec §7 ledger #2/#3.
+#   - "Доставка та" / "оплата», «Повернення», «Контакти" (Footer.tsx) —
+#     TASK-055 future footer link labels quoting the ORIGINAL MOCKUP copy;
+#     those pages aren't built yet (404 today), so no catalog key exists.
+#   - "тис." / "млн" (SocialLinks.tsx) — illustrative abbreviation examples
+#     in a comment about NOT-YET-IMPLEMENTED locale-aware follower-count
+#     formatting (formatFollowers still hardcodes "en-US" — TASK-039 doesn't
+#     wire this up, only removes the comment's Cyrillic).
+#   - "Один розмір" (src/lib/product-display.ts) — an illustrative example of
+#     a DB Size-variant value in a comment, not a catalog string (same class
+#     as Task 5's «Чорний» precedent above: DB/variant data, never
+#     content-layer copy).
+Адреси
+Налаштування
+У вибране
+Відкрити фото замірів
+Доставка та
+оплата», «Повернення», «Контакти
+тис.
+млн
+Один розмір
+
+# G12 (commit 031c3f9, 2026-08-18): src/app/(shop)/categories/[slug]/
+# category-client.tsx was DELETED OUTRIGHT — the /categories/[slug] surface is
+# retired to a routing-layer 307 to the catalog, not restyled or re-extracted.
+# TASK-039 deliberately skipped this file for exactly this reason (see the G9
+# design spec: "category-client.tsx is skipped (G12 retires it)"), so these
+# fragments were never extracted to messages/uk.json and never will be.
+#
+# Unlike every entry above, these ARE live UI copy, not doc-comments or
+# illustrative examples — the distinction that made this file's original
+# one-line header too narrow to describe them. Their replacements already
+# exist in the catalog under the catalog's own namespaces: the sort options
+# as products.sort.*, the empty state as products.list.empty.*. The category
+# not-found trio has no replacement at all — an unknown slug now lands on the
+# catalog's empty state instead of a bespoke 404 panel.
+#
+# The five fragments below with a truncated look («Назва: А», «Назва: Я»)
+# are the extractor splitting on the en-dash in «Назва: А–Я» / «Назва: Я–А»;
+# they are recorded as the tool reports them so the entries actually match.
+Найстаріші
+Ціна: за зростанням
+Ціна: за спаданням
+Назва: А
+Назва: Я
+Спробуйте змінити фільтри або поверніться пізніше
+Категорію не знайдено
+Такої категорії не існує або її було видалено
+До категорій

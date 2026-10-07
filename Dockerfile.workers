@@ -1,0 +1,40 @@
+# ================================
+# Workers Dockerfile
+# ================================
+# This Dockerfile is for the background workers service
+# It runs BullMQ workers for order forwarding and status sync
+
+FROM node:20-alpine
+
+# Install dependencies needed for Prisma
+RUN apk add --no-cache libc6-compat openssl
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+COPY prisma ./prisma/
+
+# Install dependencies
+RUN npm ci --production
+
+# Generate Prisma Client
+RUN npx prisma generate
+
+# Copy worker source code
+COPY src/workers ./src/workers
+COPY src/lib ./src/lib
+COPY src/services ./src/services
+COPY tsconfig.json ./
+
+# Set environment variables
+ENV NODE_ENV=production
+
+# Create non-root user
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 worker
+
+USER worker
+
+# Start workers
+CMD ["npx", "tsx", "src/workers/index.ts"]

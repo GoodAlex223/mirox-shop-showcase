@@ -1,0 +1,9 @@
+/* TEAM */
+Developer: GoodAlex223
+Site: https://goodalex223.github.io
+Location: Ukraine
+
+/* SITE */
+Name: Mirox Shop
+Standards: HTML5, CSS3, TypeScript
+Components: Next.js, React, Tailwind CSS, Prisma

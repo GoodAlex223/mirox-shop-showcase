@@ -1,0 +1,837 @@
+{
+  "common": {
+    "localeSwitcher": "Язык"
+  },
+  "cart": {
+    "title": "Корзина",
+    "itemsCount": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товаров}}",
+    "continueShopping": "Продолжить покупки",
+    "remove": "Удалить",
+    "variant": {
+      "color": "Цвет:",
+      "size": "Размер:"
+    },
+    "quantity": {
+      "increase": "Увеличить количество",
+      "decrease": "Уменьшить количество"
+    },
+    "empty": {
+      "title": "Корзина пуста",
+      "cta": "Перейти в каталог"
+    },
+    "summary": {
+      "title": "Итого",
+      "itemsLabel": "Товары",
+      "shippingLabel": "Доставка",
+      "shippingValue": "По тарифам Нова Пошта",
+      "totalLabel": "К оплате",
+      "checkoutCta": "ОФОРМИТЬ ЗАКАЗ",
+      "validating": "Проверка…",
+      "securePayment": "Безопасная оплата",
+      "stockIssues": {
+        "title": "Некоторые товары недоступны в нужном количестве",
+        "description": "Обновите количество или удалите недоступные товары перед оформлением."
+      }
+    },
+    "stock": {
+      "outOfStock": "Нет в наличии",
+      "onlyN": "Доступно только {count}",
+      "unavailable": "Товар больше недоступен"
+    },
+    "clear": {
+      "action": "Очистить корзину",
+      "dialogTitle": "Очистить корзину?",
+      "dialogDescription": "Все товары будут удалены из корзины. Это действие нельзя отменить.",
+      "confirm": "Очистить",
+      "cancel": "Отменить"
+    },
+    "drawer": {
+      "title": "Корзина",
+      "viewCart": "Посмотреть корзину"
+    }
+  },
+  "header": {
+    "menu": "Меню",
+    "toggleMenu": "Открыть меню",
+    "categories": "Категории",
+    "adminPanel": "Админ-панель",
+    "account": "Аккаунт",
+    "orders": "Заказы",
+    "signIn": "Войти",
+    "signOut": "Выйти",
+    "createAccount": "Создать аккаунт",
+    "cart": "Корзина",
+    "search": {
+      "srOpen": "Поиск (Ctrl+K)",
+      "dialogTitle": "Поиск товаров",
+      "placeholder": "Поиск товаров…",
+      "viewAll": "Все результаты для «{query}»",
+      "noResults": "Ничего не найдено по запросу «{query}»",
+      "minChars": "Введите минимум 2 символа для поиска…"
+    },
+    "nav": {
+      "catalog": "Каталог",
+      "new": "Новинки",
+      "bestsellers": "Бестселлеры",
+      "contacts": "Контакты"
+    }
+  },
+  "footer": {
+    "groups": {
+      "shop": "Магазин",
+      "info": "Информация"
+    },
+    "links": {
+      "catalog": "Каталог",
+      "categories": "Категории",
+      "new": "Новинки",
+      "feedback": "Обратная связь",
+      "track": "Статус заказа",
+      "about": "О нас",
+      "shipping": "Доставка",
+      "returns": "Возврат",
+      "faq": "Вопросы-ответы",
+      "contact": "Контакты",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования"
+    },
+    "developerCredit": "Разработано —",
+    "followUs": "Следите за нами",
+    "newsletterBlurb": "Подпишитесь на новости — узнавайте о скидках и новинках первыми.",
+    "benefits": {
+      "0": {
+        "title": "Быстрая доставка",
+        "description": "Расчёт при оформлении"
+      },
+      "1": {
+        "title": "Оплата при получении",
+        "description": "Без предоплаты"
+      },
+      "2": {
+        "title": "Безопасная оплата",
+        "description": "Защищённый checkout"
+      },
+      "3": {
+        "title": "Поддержка 24/7",
+        "description": "Мы всегда на связи"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "headline1": "СТИЛЬ. КАЧЕСТВО.",
+      "headline2": "УВЕРЕННОСТЬ.",
+      "subtitle": "Mirox Shop — современная одежда для тех, кто ценит качество и минимализм.",
+      "primaryCta": "ПЕРЕЙТИ В КАТАЛОГ",
+      "secondaryCta": "СМОТРЕТЬ НОВИНКИ",
+      "imageAlt": "Модель в чёрном худи Mirox"
+    },
+    "benefitsAriaLabel": "Преимущества",
+    "benefits": {
+      "0": {
+        "title": "Быстрая доставка",
+        "description": "По всей Украине"
+      },
+      "1": {
+        "title": "Премиум качество",
+        "description": "Только лучшие материалы"
+      },
+      "2": {
+        "title": "Поддержка 24/7",
+        "description": "Мы всегда на связи"
+      },
+      "3": {
+        "title": "Оплата при получении",
+        "description": "Без предоплаты"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Почему выбирают нас",
+      "intro": "Проверяем каждую вещь перед отправкой и всегда на связи.",
+      "items": {
+        "0": "Быстрая доставка по Украине",
+        "1": "Проверка каждой вещи",
+        "2": "Поддержка без выходных",
+        "3": "Только качественная одежда",
+        "4": "Безопасная оплата",
+        "5": "Нам доверяют постоянные клиенты"
+      },
+      "stats": {
+        "olxSales": "успешных покупок на OLX",
+        "instagramOrders": "заказов через Instagram",
+        "customerRating": "средняя оценка покупателей"
+      }
+    },
+    "rails": {
+      "newArrivals": {
+        "title": "Новинки",
+        "viewAllLabel": "Смотреть всё"
+      }
+    },
+    "testimonials": {
+      "title": "Отзывы покупателей"
+    }
+  },
+  "brand": {
+    "tagline": "Современная одежда для тех, кто ценит качество и минимализм.",
+    "heroSubtitle": "Mirox Shop — современная одежда для тех, кто ценит качество и минимализм.",
+    "description": "Mirox Shop — современная одежда для тех, кто ценит качество и минимализм. Проверяем каждую вещь перед отправкой, быстрая доставка по всей Украине.",
+    "metaSuffix": "Современная одежда"
+  },
+  "site": {
+    "announcement": {
+      "text": "Мы открылись! Новый сайт Mirox уже работает. Заметили проблему или есть предложение?",
+      "linkLabel": "Расскажите нам через форму обратной связи"
+    },
+    "announcementDismiss": "Скрыть объявление"
+  },
+  "checkout": {
+    "title": "Оформление заказа",
+    "secureNote": "Защищённое оформление",
+    "steps": {
+      "cart": "Корзина",
+      "contacts": "Контакты",
+      "delivery": "Доставка",
+      "payment": "Оплата"
+    },
+    "contact": {
+      "heading": "Контактные данные",
+      "name": {
+        "label": "Имя",
+        "placeholder": "Александр Коваленко"
+      },
+      "phone": {
+        "label": "Телефон",
+        "placeholder": "+380 __ ___ __ __"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@example.com"
+      },
+      "next": "ДАЛЕЕ — ДОСТАВКА"
+    },
+    "delivery": {
+      "heading": "Доставка",
+      "city": {
+        "label": "Город",
+        "placeholder": "Киев"
+      },
+      "address": {
+        "label": "Отделение / адрес",
+        "placeholder": "Отделение №12"
+      },
+      "notes": {
+        "label": "Комментарий к заказу (необязательно)",
+        "placeholder": "Пожелания к заказу…"
+      },
+      "picker": {
+        "city": { "label": "Город", "placeholder": "Начните вводить название города" },
+        "branch": { "label": "Отделение", "placeholder": "Номер или улица" },
+        "postomat": { "label": "Почтомат", "placeholder": "Номер или улица" },
+        "street": { "label": "Улица, дом, квартира", "placeholder": "ул. Крещатик, 1, кв. 5" },
+        "chooseCityFirst": "Сначала выберите город",
+        "loading": "Загрузка…",
+        "empty": "Ничего не найдено",
+        "truncated": "Показаны не все — уточните номер или улицу",
+        "fallbackNotice": "Не удалось загрузить справочник Нова Пошта — укажите город и отделение вручную.",
+        "errors": {
+          "city": "Выберите город из списка",
+          "branch": "Выберите отделение из списка",
+          "postomat": "Выберите почтомат из списка",
+          "street": "Укажите адрес"
+        }
+      },
+      "back": "← НАЗАД",
+      "next": "ДАЛЕЕ — ОПЛАТА"
+    },
+    "payment": {
+      "heading": "Оплата",
+      "cod": {
+        "name": "Оплата при получении",
+        "description": "Без предоплаты · наличными или картой в отделении"
+      },
+      "noPrepay": "Работаем без предоплаты",
+      "prepay": {
+        "offer": "Хотите оплатить полную стоимость заранее? Напишите менеджеру — пришлём реквизиты.",
+        "cardLabel": "Оплата полной стоимости на карту:",
+        "contactLabel": "Вопросы — напишите менеджеру:"
+      },
+      "contacts": {
+        "manager": "Менеджер"
+      },
+      "back": "← НАЗАД",
+      "submit": "ПОДТВЕРДИТЬ ЗАКАЗ",
+      "submitting": "Обработка…"
+    },
+    "errors": {
+      "orderFailed": "Не удалось оформить заказ. Попробуйте ещё раз.",
+      "PRODUCT_UNAVAILABLE": "Некоторые товары из вашего заказа больше недоступны. Обновите корзину и попробуйте ещё раз.",
+      "INVALID_VARIANT": "Один из товаров недоступен в выбранном варианте. Обновите корзину и попробуйте ещё раз.",
+      "INSUFFICIENT_STOCK": "На складе недостаточно товара для вашего заказа. Уменьшите количество и попробуйте ещё раз.",
+      "INVALID_SHIPPING_METHOD": "Выберите корректный способ доставки.",
+      "INVALID_ORDER_DATA": "Проверьте правильность заполненных данных."
+    },
+    "summary": {
+      "heading": "Ваш заказ",
+      "itemsLabel": "Товары",
+      "shippingLabel": "Доставка",
+      "totalLabel": "К оплате",
+      "qty": "{count} шт"
+    },
+    "empty": {
+      "title": "Корзина пуста",
+      "description": "Добавьте товары в корзину, чтобы оформить заказ.",
+      "cta": "Перейти в каталог"
+    },
+    "confirmation": {
+      "title": "Заказ принят!",
+      "emailSentPrefix": "Спасибо! Мы отправили подтверждение на",
+      "orderNumberLabel": "Заказ №",
+      "detailsHeading": "Детали заказа",
+      "paymentCod": "Оплата при получении в отделении",
+      "paymentCard": "Картой онлайн",
+      "paymentLabel": "Оплата",
+      "subtotalLabel": "Товары",
+      "shippingLabel": "Доставка",
+      "totalLabel": "К оплате",
+      "addressHeading": "Адрес доставки",
+      "methodHeading": "Способ доставки",
+      "notesHeading": "Комментарий к заказу",
+      "emailCardTitle": "Письмо с подтверждением",
+      "emailCardTextPrefix": "Детали заказа отправлены на",
+      "continueShopping": "Продолжить покупки",
+      "viewOrders": "История заказов",
+      "notFoundTitle": "Заказ не найден",
+      "notFoundText": "Мы не нашли заказ по указанному номеру.",
+      "loading": "Загружаем детали заказа…",
+      "trackLink": "Проверить статус заказа"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Вход",
+      "description": "Войдите, чтобы управлять заказами и данными аккаунта",
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Введите пароль"
+      },
+      "submit": "ВОЙТИ",
+      "submitting": "ВХОД…",
+      "errors": {
+        "invalidCredentials": "Неверный email или пароль",
+        "generic": "Что-то пошло не так. Попробуйте ещё раз."
+      },
+      "noAccount": "Нет аккаунта?",
+      "signUpLink": "Зарегистрироваться"
+    },
+    "register": {
+      "title": "Регистрация",
+      "description": "Заполните данные, чтобы создать аккаунт",
+      "name": {
+        "label": "Имя",
+        "placeholder": "Александр Коваленко"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Создайте пароль"
+      },
+      "confirmPassword": {
+        "label": "Подтверждение пароля",
+        "placeholder": "Повторите пароль"
+      },
+      "submit": "СОЗДАТЬ АККАУНТ",
+      "submitting": "СОЗДАНИЕ АККАУНТА…",
+      "errors": {
+        "byCode": {
+          "EMAIL_EXISTS": "Этот email уже зарегистрирован"
+        },
+        "generic": "Что-то пошло не так. Попробуйте ещё раз."
+      },
+      "hasAccount": "Уже есть аккаунт?",
+      "signInLink": "Войти"
+    },
+    "error": {
+      "title": "Ошибка аутентификации",
+      "description": "Во время аутентификации произошла ошибка. Попробуйте ещё раз — если проблема повторяется, свяжитесь с нами.",
+      "errorId": "Код ошибки: {digest}",
+      "retry": "Попробовать ещё раз",
+      "backToLogin": "К входу"
+    }
+  },
+  "account": {
+    "title": "Мой аккаунт",
+    "nav": {
+      "overview": "Обзор",
+      "orders": "Заказы"
+    },
+    "overview": {
+      "welcome": "С возвращением, {name}!",
+      "nameFallback": "Клиент",
+      "description": "Управляйте заказами и данными аккаунта.",
+      "ordersCard": {
+        "title": "Заказы",
+        "description": "Просмотр и отслеживание ваших заказов",
+        "cta": "К заказам"
+      },
+      "info": {
+        "title": "Данные аккаунта",
+        "name": "Имя",
+        "email": "Email",
+        "notSet": "Не указано"
+      }
+    },
+    "orders": {
+      "title": "История заказов",
+      "filter": {
+        "placeholder": "Фильтр по статусу",
+        "all": "Все заказы"
+      },
+      "empty": {
+        "title": "Заказов пока нет",
+        "description": "Когда вы оформите заказ, он появится здесь.",
+        "cta": "Перейти в каталог"
+      },
+      "card": {
+        "placed": "Дата заказа",
+        "total": "Сумма",
+        "number": "№ заказа",
+        "details": "Детали",
+        "qty": "Кол-во: {count}",
+        "more": "+{count, plural, one {# другой товар} few {# других товара} many {# других товаров} other {# других товаров}}"
+      },
+      "pagination": {
+        "prev": "Назад",
+        "next": "Далее",
+        "pageOf": "Страница {page} из {total}"
+      }
+    },
+    "orderDetail": {
+      "orderTitle": "Заказ {num}",
+      "placedOn": "Оформлен {date}",
+      "notFound": "Заказ не найден",
+      "loadFailed": "Не удалось загрузить заказ",
+      "backToOrders": "К заказам",
+      "timeline": {
+        "title": "Статус заказа",
+        "placed": "Заказ оформлен",
+        "confirmed": "Заказ подтверждён",
+        "processing": "Обрабатывается",
+        "shipped": "Отправлено",
+        "delivered": "Доставлено",
+        "cancelled": "Отменено",
+        "tracking": "Номер отслеживания:",
+        "trackPackage": "Отследить посылку"
+      },
+      "items": {
+        "title": "Товары ({count})",
+        "sku": "Артикул:"
+      },
+      "summary": {
+        "title": "Итого",
+        "subtotal": "Товары",
+        "shipping": "Доставка",
+        "discount": "Скидка",
+        "tax": "Налог",
+        "total": "К оплате"
+      },
+      "address": {
+        "title": "Адрес доставки"
+      },
+      "payment": {
+        "title": "Оплата",
+        "method": "Способ",
+        "status": "Статус",
+        "paidOn": "Оплачено",
+        "methodCod": "Оплата при получении",
+        "methodCard": "Картой"
+      },
+      "notes": {
+        "title": "Комментарий к заказу"
+      }
+    },
+    "orderStatus": {
+      "PENDING": "Ожидает подтверждения",
+      "CONFIRMED": "Подтверждено",
+      "PROCESSING": "Обрабатывается",
+      "SHIPPED": "Отправлено",
+      "DELIVERED": "Доставлено",
+      "CANCELLED": "Отменено",
+      "REFUNDED": "Возвращено"
+    },
+    "paymentStatus": {
+      "PENDING": "Ожидает оплаты",
+      "PAID": "Оплачено",
+      "FAILED": "Не удалась",
+      "REFUNDED": "Возвращено",
+      "PARTIALLY_REFUNDED": "Частично возвращено"
+    }
+  },
+  "system": {
+    "notFound": {
+      "title": "404",
+      "description": "Страница не найдена",
+      "cta": "Вернуться на главную"
+    },
+    "error": {
+      "title": "Что-то пошло не так",
+      "description": "Произошла непредвиденная ошибка. Попробуйте ещё раз.",
+      "errorId": "Код ошибки: {digest}",
+      "retry": "Попробовать ещё раз",
+      "home": "На главную"
+    },
+    "cookies": {
+      "message": "Мы используем cookies для анализа посещаемости и улучшения работы сайта. Нажимая «Принять», вы соглашаетесь на аналитическое отслеживание.",
+      "accept": "Принять",
+      "decline": "Отклонить"
+    }
+  },
+  "feedback": {
+    "page": {
+      "title": "Обратная связь",
+      "description": "Мы только что запустили новый сайт. Если что-то не работает, выглядит странно или у вас есть идея — напишите нам. Мы читаем каждое сообщение."
+    },
+    "form": {
+      "nameLabel": "Имя",
+      "namePlaceholder": "Как к вам обращаться (необязательно)",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "emailHint": "Оставьте email, если хотите получить ответ (необязательно)",
+      "messageLabel": "Сообщение",
+      "messagePlaceholder": "Расскажите, что случилось или что можно улучшить…",
+      "submit": "Отправить",
+      "submitting": "Отправляем…"
+    },
+    "success": {
+      "title": "Спасибо!",
+      "description": "Ваше сообщение отправлено. Если вы оставили email, мы ответим в ближайшее время."
+    },
+    "byCode": {
+      "VALIDATION_ERROR": "Проверьте заполненные поля — что-то не так.",
+      "SEND_FAILED": "Не удалось отправить сообщение. Попробуйте позже."
+    },
+    "fallback": "Не удалось отправить сообщение. Попробуйте позже."
+  },
+  "newsletter": {
+    "confirm": {
+      "loading": {
+        "title": "Подтверждаем подписку…",
+        "description": "Подождите, пожалуйста."
+      },
+      "byCode": {
+        "CONFIRMED": {
+          "title": "Подписка подтверждена!",
+          "description": "Спасибо! Теперь вы будете получать наши новости и предложения."
+        },
+        "ALREADY_CONFIRMED": {
+          "title": "Подписка уже подтверждена",
+          "description": "Этот email уже получает наши письма."
+        },
+        "LINK_EXPIRED": {
+          "title": "Ссылка устарела",
+          "description": "Срок действия ссылки истёк. Подпишитесь ещё раз — мы отправим новое письмо."
+        },
+        "INVALID_TOKEN": {
+          "title": "Недействительная ссылка",
+          "description": "Ссылка для подтверждения недействительна. Проверьте адрес из письма."
+        },
+        "TOKEN_REQUIRED": {
+          "title": "Недействительная ссылка",
+          "description": "В ссылке отсутствует токен подтверждения."
+        }
+      },
+      "fallback": {
+        "title": "Что-то пошло не так",
+        "description": "Не удалось подтвердить подписку. Попробуйте позже."
+      }
+    },
+    "unsubscribe": {
+      "idle": {
+        "title": "Отписаться от рассылки",
+        "prompt": "Вы уверены, что хотите отписать {email} от нашей рассылки?",
+        "confirm": "Да, отписаться"
+      },
+      "processing": {
+        "title": "Обрабатываем…",
+        "description": "Подождите, пожалуйста."
+      },
+      "invalidLink": {
+        "title": "Недействительная ссылка",
+        "description": "Ссылка для отписки недействительна или неполная."
+      },
+      "byCode": {
+        "UNSUBSCRIBED": {
+          "title": "Вы отписались",
+          "description": "Мы больше не будем отправлять вам письма."
+        },
+        "ALREADY_UNSUBSCRIBED": {
+          "title": "Вы уже отписаны",
+          "description": "Этот email не получает нашу рассылку."
+        },
+        "SUBSCRIBER_NOT_FOUND": {
+          "title": "Недействительная ссылка",
+          "description": "Подписчика с таким email не найдено."
+        },
+        "INVALID_UNSUBSCRIBE_LINK": {
+          "title": "Недействительная ссылка",
+          "description": "Ссылка для отписки недействительна."
+        },
+        "VALIDATION_ERROR": {
+          "title": "Недействительная ссылка",
+          "description": "Ссылка для отписки недействительна или неполная."
+        }
+      },
+      "fallback": {
+        "title": "Что-то пошло не так",
+        "description": "Не удалось обработать отписку. Попробуйте позже."
+      }
+    },
+    "signup": {
+      "emailPlaceholder": "Ваш email",
+      "submit": "Подписаться",
+      "submitting": "Подписываем...",
+      "successToast": "Проверьте почту, чтобы подтвердить подписку",
+      "successMessage": "Проверьте почту, чтобы подтвердить подписку!",
+      "privacyNote": "Мы уважаем вашу приватность. Отписаться можно в любое время.",
+      "byCode": {
+        "ALREADY_SUBSCRIBED": "Этот email уже подписан на рассылку"
+      },
+      "fallback": "Не удалось подписаться"
+    },
+    "actions": {
+      "continueShopping": "Продолжить покупки",
+      "goHome": "На главную"
+    }
+  },
+  "shipping": {
+    "np-office": "Нова Пошта — отделение",
+    "np-courier": "Нова Пошта — курьер",
+    "np-postomat": "Нова Пошта — почтомат"
+  },
+  "products": {
+    "catalogName": "Каталог",
+    "breadcrumbHome": "Главная",
+    "list": {
+      "empty": {
+        "title": "Ничего не найдено",
+        "description": "Попробуйте изменить фильтры или поисковый запрос.",
+        "clearFilters": "Сбросить фильтры"
+      },
+      "pagination": {
+        "prev": "Предыдущая страница",
+        "next": "Следующая страница"
+      }
+    },
+    "filters": {
+      "title": "Фильтры",
+      "apply": "Применить",
+      "priceTrigger": "Цена ▾",
+      "priceHeading": "Цена",
+      "brandTrigger": "Бренд ▾",
+      "brandHeading": "Бренд",
+      "noBrands": "Нет брендов",
+      "availabilityTrigger": "Наличие ▾",
+      "availabilityHeading": "Наличие",
+      "allProducts": "Все товары",
+      "inStock": "В наличии",
+      "colorTrigger": "Цвет ▾",
+      "categoryTrigger": "Категории ▾",
+      "categoryHeading": "Категории",
+      "clearAll": "Сбросить всё",
+      "sortHeading": "Сортировка",
+      "searchPill": "Поиск: {query}",
+      "clearSearch": "Сбросить поиск",
+      "categoryPill": "Категория: {category}",
+      "clearCategory": "Сбросить категорию"
+    },
+    "sort": {
+      "heading": "Сортировка:",
+      "new": "Новинки",
+      "popular": "Популярные",
+      "priceAsc": "Цена ↑",
+      "priceDesc": "Цена ↓"
+    },
+    "variant": {
+      "size": "Размер:",
+      "sizeLabel": "Размер",
+      "sizeGroupAria": "Размер: {name}",
+      "color": "Цвет:",
+      "colorLabel": "Цвет",
+      "colorAria": "Цвет: {value}",
+      "colorAriaSelected": "Цвет: {value} (выбран)",
+      "colorAriaSibling": "Цвет: {value} — {name}"
+    },
+    "card": {
+      "prevPhoto": "Предыдущее фото",
+      "nextPhoto": "Следующее фото",
+      "quickView": "Быстрый просмотр",
+      "addToCartAria": "В корзину"
+    },
+    "badges": {
+      "new": "НОВИНКА",
+      "sale": "-{percent}%",
+      "outOfStock": "Нет в наличии"
+    },
+    "sizePicker": {
+      "title": "Подбор размера",
+      "subtitle": "Укажите свой рост и вес, мы подберём идеальный размер",
+      "heightLabel": "Рост (см)",
+      "weightLabel": "Вес (кг)",
+      "resultLabel": "Ваш размер:",
+      "recommendationsLabel": "Рекомендации:",
+      "recommendations": {
+        "fit": "Свободная посадка",
+        "comfort": "Комфорт в движении",
+        "idealChoice": "Идеальный выбор"
+      }
+    },
+    "quickView": {
+      "prevPhoto": "Предыдущее фото",
+      "nextPhoto": "Следующее фото",
+      "addToCart": "ДОБАВИТЬ В КОРЗИНУ",
+      "viewDetails": "Подробнее →"
+    },
+    "gallery": {
+      "photosAria": "Фотографии: {name}",
+      "slideAlt": "{name} — фото {index}",
+      "goToPhoto": "Перейти к фото {index}",
+      "photoOf": "Фото {index} из {total}",
+      "thumbnailAlt": "{name} — миниатюра {index}"
+    },
+    "boughtTogether": {
+      "title": "Покупают вместе",
+      "totalLabel": "Общая цена:",
+      "addBundle": "ДОБАВИТЬ КОМПЛЕКТ В КОРЗИНУ"
+    },
+    "recentlyViewed": {
+      "title": "Вы недавно просмотрели"
+    },
+    "detail": {
+      "reviewCount": "{count, plural, one {# отзыв} few {# отзыва} many {# отзывов} other {# отзывов}}",
+      "outOfStock": "Нет в наличии",
+      "lowStock": "Осталось {count} шт",
+      "inStock": "● В наличии",
+      "shippingNote": "Доставка Нова Пошта",
+      "addedToCart": "ДОБАВЛЕНО В КОРЗИНУ",
+      "addToCart": "ДОБАВИТЬ В КОРЗИНУ",
+      "buyNow": "КУПИТЬ СЕЙЧАС",
+      "description": "Описание",
+      "relatedProducts": "Похожие товары",
+      "notFoundTitle": "Товар не найден",
+      "notFoundDescription": "Товара, который вы ищете, не существует, или он был удалён.",
+      "backToCatalog": "К каталогу"
+    },
+    "share": {
+      "label": "Поделиться:",
+      "platformAria": "Поделиться: {platform}",
+      "copyAria": "Скопировать ссылку",
+      "nativeAria": "Поделиться",
+      "linkCopied": "Ссылка скопирована!",
+      "copyFailed": "Не удалось скопировать ссылку"
+    }
+  },
+  "reviews": {
+    "title": "Отзывы покупателей",
+    "stats": {
+      "reviewCount": "{count, plural, one {# отзыв} few {# отзыва} many {# отзывов} other {# отзывов}}"
+    },
+    "form": {
+      "heading": "Написать отзыв",
+      "ratingLabel": "Оценка *",
+      "selectRatingError": "Выберите оценку",
+      "commentLabel": "Комментарий (необязательно)",
+      "commentPlaceholder": "Поделитесь впечатлениями о товаре…",
+      "submit": "Отправить отзыв",
+      "submitting": "Отправляем…",
+      "submitSuccess": "Отзыв отправлен!",
+      "submitError": "Не удалось отправить отзыв"
+    },
+    "list": {
+      "filterLabel": "Фильтр:",
+      "filterAll": "Все оценки",
+      "filterFive": "5 звёзд",
+      "filterFour": "4 звезды",
+      "filterThree": "3 звезды",
+      "filterTwo": "2 звезды",
+      "filterOne": "1 звезда",
+      "emptyFiltered": "Нет отзывов с такой оценкой.",
+      "empty": "Отзывов пока нет.",
+      "loading": "Загрузка…",
+      "loadMore": "Показать ещё"
+    },
+    "item": {
+      "anonymousFallback": "Покупатель",
+      "verifiedBadge": "✓ Подтверждённая покупка",
+      "storeReply": "Ответ магазина"
+    }
+  },
+  "categories": {
+    "title": "Категории",
+    "subtitle": "Просмотрите наши товары по категориям",
+    "empty": {
+      "title": "Категорий пока нет",
+      "description": "Скоро здесь появятся категории товаров."
+    },
+    "productCount": "{count, plural, one {# товар} few {# товара} many {# товаров} other {# товаров}}",
+    "moreCategories": "ещё {count}"
+  },
+  "seo": {
+    "productsListing": {
+      "title": "Каталог",
+      "description": "Просмотрите полную коллекцию качественной одежды Mirox. Выгодные цены и быстрая доставка по всей Украине.",
+      "ogDescription": "Просмотрите полную коллекцию качественной одежды Mirox."
+    },
+    "categoriesListing": {
+      "title": "Категории",
+      "description": "Просмотрите товары по категориям. Найдите именно то, что ищете, в нашей удобной коллекции.",
+      "ogTitle": "Категории",
+      "ogDescription": "Просмотрите товары по категориям."
+    },
+    "auth": {
+      "login": {
+        "title": "Войти",
+        "description": "Войдите в свой аккаунт {name}, чтобы просматривать заказы, сохранённые товары и многое другое."
+      },
+      "register": {
+        "title": "Создать аккаунт",
+        "description": "Создайте аккаунт {name}, чтобы сохранять избранное, отслеживать заказы и оформлять покупки быстрее."
+      }
+    },
+    "productNotFound": "Товар не найден"
+  },
+  "track": {
+    "page": {
+      "title": "Статус заказа",
+      "description": "Введите номер заказа и email, указанный при оформлении, чтобы посмотреть статус и детали доставки."
+    },
+    "form": {
+      "orderNumberLabel": "Номер заказа",
+      "orderNumberPlaceholder": "ORD-…",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "submit": "Проверить",
+      "submitting": "Проверяем…"
+    },
+    "byCode": {
+      "ORDER_NOT_FOUND": "Заказ с таким номером и email не найден. Проверьте данные и попробуйте ещё раз.",
+      "TOO_MANY_ATTEMPTS": "Слишком много попыток. Попробуйте снова через {minutes} мин.",
+      "VALIDATION_ERROR": "Проверьте номер заказа и email — что-то не так.",
+      "LOOKUP_FAILED": "Не удалось проверить заказ. Попробуйте позже."
+    },
+    "fallback": "Не удалось проверить заказ. Попробуйте позже.",
+    "status": {
+      "dateLabel": "Дата оформления",
+      "statusLabel": "Статус",
+      "trackingLabel": "Номер отслеживания",
+      "trackingLink": "Отследить посылку",
+      "checkAnother": "Проверить другой заказ"
+    }
+  }
+}

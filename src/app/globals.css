@@ -1,0 +1,559 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-heading: var(--font-heading);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-border-strong: var(--border-strong);
+  --color-faint: var(--text-faint);
+  --color-rating: var(--rating);
+  --color-available: var(--available);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+}
+
+/* ========================================
+   MIROX THEME — dark surface (default)
+   ======================================== */
+:root {
+  --radius: 0.625rem; /* 10px base. shadcn buttons/inputs render rounded-md (8px — nearest step to the prototype's 10px; ui/ primitives stay unmodified); cards rounded-xl (14px); the prototype's exact-20px panels arrive with their pages (TASK-043+) */
+  --font-heading: var(--font-manrope);
+  --font-body: var(--font-manrope);
+  --font-serif: var(--font-playfair);
+
+  /* Motion (unchanged) */
+  --ease-mirox: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+
+  /* Elevation — dark-surface tuning (was the section-inversion override) */
+  --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -8px rgb(0 0 0 / 0.6);
+
+  /* Semantic tokens — Mirox dark (handoff §1). bg #000, panel #0D0D0D,
+     panel-2/border #1A1A1A, border-hover #333, text #FFF / #A3A3A3 / #737373 */
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #0d0d0d;
+  --card-foreground: #ffffff;
+  --popover: #0d0d0d;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #ffffff;
+  --muted: #1a1a1a;
+  --muted-foreground: #a3a3a3;
+  --accent: #1a1a1a;
+  --accent-foreground: #ffffff;
+  --destructive: #f87171;
+  --destructive-foreground: #000000;
+  /* Sanctioned amber hue, alongside --destructive — star ratings only. */
+  --rating: #fbbf24;
+  /* Sanctioned green hue — stock-availability line and verified-purchase badge only. */
+  --available: #4ade80;
+  --border: #1a1a1a;
+  --input: #1a1a1a;
+  --ring: #ffffff;
+  --border-strong: #333333;
+  --text-faint: #737373;
+
+  /* Charts — admin analytics only (retained) */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+
+  /* Sidebar — admin chrome coheres with dark */
+  --sidebar: #0d0d0d;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #1a1a1a;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #1a1a1a;
+  --sidebar-ring: #737373;
+}
+
+/* ========================================
+   BOLD & VIBRANT THEME
+   Electric blue primary, coral accent
+   Energetic, modern, youthful
+   ======================================== */
+.bold {
+  --radius: 0.75rem;
+  --font-heading: var(--font-geist-sans);
+  --font-body: var(--font-geist-sans);
+
+  /* Electric blue primary */
+  --primary: oklch(0.55 0.25 250);
+  --primary-foreground: oklch(0.98 0 0);
+
+  /* Coral accent */
+  --accent: oklch(0.65 0.2 25);
+  --accent-foreground: oklch(0.15 0 0);
+
+  /* Light backgrounds with subtle blue tint */
+  --background: oklch(0.99 0.008 250);
+  --foreground: oklch(0.15 0.02 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.02 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.02 250);
+
+  /* Enhanced secondary/muted with blue undertones */
+  --secondary: oklch(0.94 0.03 250);
+  --secondary-foreground: oklch(0.25 0.05 250);
+  --muted: oklch(0.96 0.02 250);
+  --muted-foreground: oklch(0.45 0.03 250);
+
+  /* Borders and inputs */
+  --border: oklch(0.9 0.02 250);
+  --input: oklch(0.92 0.02 250);
+  --ring: oklch(0.55 0.25 250);
+
+  /* Vibrant destructive */
+  --destructive: oklch(0.6 0.25 25);
+
+  /* Vibrant chart colors */
+  --chart-1: oklch(0.55 0.25 250);
+  --chart-2: oklch(0.65 0.2 25);
+  --chart-3: oklch(0.6 0.2 180);
+  --chart-4: oklch(0.7 0.2 320);
+  --chart-5: oklch(0.65 0.2 90);
+
+  /* Sidebar */
+  --sidebar: oklch(0.98 0.01 250);
+  --sidebar-foreground: oklch(0.15 0.02 250);
+  --sidebar-primary: oklch(0.55 0.25 250);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.94 0.03 250);
+  --sidebar-accent-foreground: oklch(0.25 0.05 250);
+  --sidebar-border: oklch(0.9 0.02 250);
+  --sidebar-ring: oklch(0.55 0.25 250);
+}
+
+.bold-dark {
+  --background: oklch(0.12 0.025 250);
+  --foreground: oklch(0.95 0.01 250);
+  --card: oklch(0.16 0.03 250);
+  --card-foreground: oklch(0.95 0.01 250);
+  --popover: oklch(0.16 0.03 250);
+  --popover-foreground: oklch(0.95 0.01 250);
+
+  /* Brighter primary for dark mode */
+  --primary: oklch(0.65 0.22 250);
+  --primary-foreground: oklch(0.1 0.02 250);
+
+  /* Lighter coral accent */
+  --accent: oklch(0.7 0.18 25);
+  --accent-foreground: oklch(0.1 0 0);
+
+  --secondary: oklch(0.22 0.04 250);
+  --secondary-foreground: oklch(0.9 0.01 250);
+  --muted: oklch(0.2 0.03 250);
+  --muted-foreground: oklch(0.65 0.02 250);
+
+  --border: oklch(0.28 0.04 250);
+  --input: oklch(0.24 0.03 250);
+  --ring: oklch(0.65 0.22 250);
+
+  --destructive: oklch(0.65 0.22 25);
+
+  --sidebar: oklch(0.14 0.025 250);
+  --sidebar-foreground: oklch(0.95 0.01 250);
+  --sidebar-primary: oklch(0.65 0.22 250);
+  --sidebar-primary-foreground: oklch(0.1 0.02 250);
+  --sidebar-accent: oklch(0.22 0.04 250);
+  --sidebar-accent-foreground: oklch(0.9 0.01 250);
+  --sidebar-border: oklch(0.28 0.04 250);
+  --sidebar-ring: oklch(0.65 0.22 250);
+}
+
+/* ========================================
+   LUXURY/PREMIUM THEME
+   Gold/copper accents, serif typography
+   Sophisticated, elegant, exclusive
+   ======================================== */
+.luxury {
+  --radius: 0.25rem;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-geist-sans);
+
+  /* Deep gold primary */
+  --primary: oklch(0.6 0.14 75);
+  --primary-foreground: oklch(0.98 0.01 75);
+
+  /* Copper accent */
+  --accent: oklch(0.55 0.12 55);
+  --accent-foreground: oklch(0.98 0.01 55);
+
+  /* Warm cream backgrounds */
+  --background: oklch(0.97 0.012 85);
+  --foreground: oklch(0.2 0.02 75);
+  --card: oklch(0.99 0.008 85);
+  --card-foreground: oklch(0.2 0.02 75);
+  --popover: oklch(0.99 0.008 85);
+  --popover-foreground: oklch(0.2 0.02 75);
+
+  /* Muted elegance */
+  --secondary: oklch(0.93 0.015 85);
+  --secondary-foreground: oklch(0.3 0.02 75);
+  --muted: oklch(0.94 0.012 85);
+  --muted-foreground: oklch(0.45 0.02 75);
+
+  /* Subtle borders */
+  --border: oklch(0.88 0.018 85);
+  --input: oklch(0.92 0.012 85);
+  --ring: oklch(0.6 0.14 75);
+
+  --destructive: oklch(0.55 0.2 25);
+
+  /* Warm chart colors */
+  --chart-1: oklch(0.6 0.14 75);
+  --chart-2: oklch(0.55 0.12 55);
+  --chart-3: oklch(0.5 0.1 35);
+  --chart-4: oklch(0.65 0.1 95);
+  --chart-5: oklch(0.45 0.08 15);
+
+  /* Sidebar */
+  --sidebar: oklch(0.96 0.012 85);
+  --sidebar-foreground: oklch(0.2 0.02 75);
+  --sidebar-primary: oklch(0.6 0.14 75);
+  --sidebar-primary-foreground: oklch(0.98 0.01 75);
+  --sidebar-accent: oklch(0.93 0.015 85);
+  --sidebar-accent-foreground: oklch(0.3 0.02 75);
+  --sidebar-border: oklch(0.88 0.018 85);
+  --sidebar-ring: oklch(0.6 0.14 75);
+}
+
+.luxury-dark {
+  /* Rich dark backgrounds */
+  --background: oklch(0.12 0.015 75);
+  --foreground: oklch(0.92 0.02 75);
+  --card: oklch(0.16 0.018 75);
+  --card-foreground: oklch(0.92 0.02 75);
+  --popover: oklch(0.16 0.018 75);
+  --popover-foreground: oklch(0.92 0.02 75);
+
+  /* Brighter gold for dark mode */
+  --primary: oklch(0.7 0.16 75);
+  --primary-foreground: oklch(0.12 0.015 75);
+
+  /* Brighter copper */
+  --accent: oklch(0.65 0.14 55);
+  --accent-foreground: oklch(0.12 0.01 55);
+
+  --secondary: oklch(0.22 0.02 75);
+  --secondary-foreground: oklch(0.88 0.02 75);
+  --muted: oklch(0.2 0.015 75);
+  --muted-foreground: oklch(0.6 0.025 75);
+
+  --border: oklch(0.28 0.025 75);
+  --input: oklch(0.22 0.02 75);
+  --ring: oklch(0.7 0.16 75);
+
+  --destructive: oklch(0.6 0.18 25);
+
+  --sidebar: oklch(0.14 0.015 75);
+  --sidebar-foreground: oklch(0.92 0.02 75);
+  --sidebar-primary: oklch(0.7 0.16 75);
+  --sidebar-primary-foreground: oklch(0.12 0.015 75);
+  --sidebar-accent: oklch(0.22 0.02 75);
+  --sidebar-accent-foreground: oklch(0.88 0.02 75);
+  --sidebar-border: oklch(0.28 0.025 75);
+  --sidebar-ring: oklch(0.7 0.16 75);
+}
+
+/* ========================================
+   ORGANIC/SCANDINAVIAN THEME
+   Sage green, terracotta, warm cream
+   Natural, calming, artisanal
+   ======================================== */
+.organic {
+  --radius: 1rem;
+  --font-heading: var(--font-lora);
+  --font-body: var(--font-geist-sans);
+
+  /* Sage green primary */
+  --primary: oklch(0.55 0.1 145);
+  --primary-foreground: oklch(0.98 0.01 145);
+
+  /* Terracotta accent */
+  --accent: oklch(0.6 0.12 45);
+  --accent-foreground: oklch(0.98 0.01 45);
+
+  /* Warm cream backgrounds */
+  --background: oklch(0.97 0.018 85);
+  --foreground: oklch(0.25 0.025 75);
+  --card: oklch(0.99 0.012 85);
+  --card-foreground: oklch(0.25 0.025 75);
+  --popover: oklch(0.99 0.012 85);
+  --popover-foreground: oklch(0.25 0.025 75);
+
+  /* Natural muted tones */
+  --secondary: oklch(0.93 0.02 90);
+  --secondary-foreground: oklch(0.3 0.025 75);
+  --muted: oklch(0.94 0.018 90);
+  --muted-foreground: oklch(0.5 0.02 75);
+
+  /* Soft borders */
+  --border: oklch(0.88 0.02 85);
+  --input: oklch(0.92 0.018 85);
+  --ring: oklch(0.55 0.1 145);
+
+  --destructive: oklch(0.55 0.18 25);
+
+  /* Earth-tone chart colors */
+  --chart-1: oklch(0.55 0.1 145);
+  --chart-2: oklch(0.6 0.12 45);
+  --chart-3: oklch(0.5 0.08 200);
+  --chart-4: oklch(0.65 0.1 90);
+  --chart-5: oklch(0.45 0.06 30);
+
+  /* Sidebar */
+  --sidebar: oklch(0.96 0.018 85);
+  --sidebar-foreground: oklch(0.25 0.025 75);
+  --sidebar-primary: oklch(0.55 0.1 145);
+  --sidebar-primary-foreground: oklch(0.98 0.01 145);
+  --sidebar-accent: oklch(0.93 0.02 90);
+  --sidebar-accent-foreground: oklch(0.3 0.025 75);
+  --sidebar-border: oklch(0.88 0.02 85);
+  --sidebar-ring: oklch(0.55 0.1 145);
+}
+
+.organic-dark {
+  /* Warm dark backgrounds */
+  --background: oklch(0.16 0.02 85);
+  --foreground: oklch(0.92 0.018 85);
+  --card: oklch(0.2 0.022 85);
+  --card-foreground: oklch(0.92 0.018 85);
+  --popover: oklch(0.2 0.022 85);
+  --popover-foreground: oklch(0.92 0.018 85);
+
+  /* Brighter sage for dark mode */
+  --primary: oklch(0.65 0.12 145);
+  --primary-foreground: oklch(0.12 0.02 145);
+
+  /* Brighter terracotta */
+  --accent: oklch(0.68 0.14 45);
+  --accent-foreground: oklch(0.12 0.01 45);
+
+  --secondary: oklch(0.24 0.022 85);
+  --secondary-foreground: oklch(0.88 0.018 85);
+  --muted: oklch(0.22 0.02 85);
+  --muted-foreground: oklch(0.6 0.018 85);
+
+  --border: oklch(0.3 0.025 85);
+  --input: oklch(0.24 0.02 85);
+  --ring: oklch(0.65 0.12 145);
+
+  --destructive: oklch(0.6 0.16 25);
+
+  --sidebar: oklch(0.18 0.02 85);
+  --sidebar-foreground: oklch(0.92 0.018 85);
+  --sidebar-primary: oklch(0.65 0.12 145);
+  --sidebar-primary-foreground: oklch(0.12 0.02 145);
+  --sidebar-accent: oklch(0.24 0.022 85);
+  --sidebar-accent-foreground: oklch(0.88 0.018 85);
+  --sidebar-border: oklch(0.3 0.025 85);
+  --sidebar-ring: oklch(0.65 0.12 145);
+}
+
+/* ========================================
+   BASE LAYER
+   ======================================== */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Apply theme-specific heading fonts */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  [data-slot="card-title"] {
+    font-family: var(--font-heading);
+  }
+}
+
+/* ========================================
+   COMPONENTS LAYER
+   ======================================== */
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* ========================================
+   THEME-SPECIFIC UTILITIES
+   ======================================== */
+@layer utilities {
+  /* Gradient backgrounds per theme */
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+  }
+
+  /* Bold theme specific - enhanced shadows */
+  .bold .shadow-theme {
+    box-shadow: 0 10px 30px -5px oklch(0 0 0 / 0.15);
+  }
+
+  /* Luxury theme specific - subtle gold glow */
+  .luxury .shadow-theme {
+    box-shadow: 0 4px 20px -2px oklch(0.6 0.1 75 / 0.15);
+  }
+
+  /* Organic theme specific - soft natural shadow */
+  .organic .shadow-theme {
+    box-shadow: 0 6px 24px -4px oklch(0.3 0.02 85 / 0.12);
+  }
+
+  /* Mirox motion primitives */
+  @keyframes mirox-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-up {
+    animation: mirox-fade-up var(--duration-slow) var(--ease-mirox) both;
+  }
+  /* Marquee (G8 TASK-059): the track holds two OR MORE copies of the content
+     (AnnouncementBar measures how many the viewport needs; the unmeasured
+     fallback assumes exactly two). Each copy carries its own trailing padding
+     (pr-12 on the copy, NOT gap on the track) so shifting by one copy width
+     (--marquee-shift, set inline from the measurement; -50% fallback) lands
+     exactly on the next copy's start and the loop is seamless. ALL track
+     layout lives here rather than in Tailwind utilities on the element, so
+     the reduced-motion override below wins by source order instead of
+     fighting utility-class order. */
+  @keyframes mirox-marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      /* Shift by exactly one measured copy width (set inline by the
+         component); the -50% fallback matches the unmeasured 2-copy state. */
+      transform: translateX(calc(-1 * var(--marquee-shift, 50%)));
+    }
+  }
+  .animate-marquee {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+    animation: mirox-marquee 30s linear infinite;
+  }
+  .animate-marquee:hover,
+  .animate-marquee:focus-within {
+    animation-play-state: paused;
+  }
+  .hover-lift {
+    transition:
+      transform var(--duration-base) var(--ease-mirox),
+      box-shadow var(--duration-base) var(--ease-mirox);
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    /* Light glow, not black shadow — black drop shadows are invisible on the
+       black default surface (learned in PR #23 / 87eed62). */
+    box-shadow: 0 10px 30px -6px rgb(255 255 255 / 0.1);
+  }
+  .glass {
+    background-color: color-mix(in oklch, var(--background) 72%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+  }
+  /* Fine desaturated fractal-noise grain. Sourced from a static asset
+     (public/grain.svg) rather than an inline data-URI: Next's production CSS
+     minifier drops a rule whose data-URI contains a nested url(#id), so the
+     data-URI version compiled to nothing (a silent no-op). A plain url() the
+     minifier leaves alone. Decorative only — always paired with aria-hidden
+     and a low opacity. */
+  .grain {
+    background-image: url("/grain.svg");
+  }
+}
+
+/* Reduced-motion reset — deliberately OUTSIDE @layer utilities. Tailwind v4's
+   production optimizer silently DROPS a bare @media block nested inside
+   @layer utilities (dev keeps it, so the omission is invisible until a prod
+   build is inspected — the fade-up/hover-lift resets below never reached
+   production CSS between TASK-034 and this fix). Un-layered rules also beat
+   layered ones in the cascade, which is exactly the precedence a reset
+   needs. Verify presence in the COMPILED output of `next build`, not the
+   dev server. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    animation: none;
+  }
+  .hover-lift,
+  .hover-lift:hover {
+    transform: none;
+    box-shadow: none;
+    transition: none;
+  }
+  .animate-marquee {
+    animation: none;
+    width: auto;
+    white-space: normal;
+    justify-content: center;
+  }
+  .marquee-duplicate {
+    display: none;
+  }
+}
